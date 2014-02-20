@@ -17,7 +17,8 @@ setup(
     install_requires=[
         "grano-client>=0.2",
         "Flask==0.10.1",
-        "Flask-Assets==0.8"
+        "Flask-Assets==0.8",
+        "Flask-Script==0.5.3"
     ],
     tests_require=[],
     entry_points=\
