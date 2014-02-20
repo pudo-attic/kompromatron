@@ -18,7 +18,9 @@ setup(
         "grano-client>=0.2",
         "Flask==0.10.1",
         "Flask-Assets==0.8",
-        "Flask-Script==0.5.3"
+        "Flask-Script==0.5.3",
+        "PyYAML==3.10",
+        "unicodecsv==0.9.4"
     ],
     tests_require=[],
     entry_points=\
