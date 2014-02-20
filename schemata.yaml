@@ -1,0 +1,113 @@
+
+
+  - name: person
+    label: Person
+    obj: entity
+    attributes:
+      - name: first_name
+        label: Vorname
+      - name: last_name
+        label: Nachname
+      - name: title
+        label: Titel
+      - name: nobility
+        label: Adelstitel
+      - name: religion
+        label: Religion
+      - name: biography
+        label: Biografie
+      - name: gender
+        label: Geschlecht
+      - name: dob
+        label: Geburtsdatum
+      - name: twitter_url
+        label: Twitter
+      - name: facebook_url
+        label: Facebook
+      - name: homepage_url
+        label: Webseite
+      - name: children
+        label: Kinder
+      - name: occupation
+        label: Beruf
+      - name: origin_state
+        label: Bundesland
+      - name: origin_city
+        label: Ort
+      - name: foto_url
+        hidden: yes
+        label: Foto-Linj
+
+  - name: public_body
+    label: Öffentliche Einrichtung
+    obj: entity
+    attributes: []
+
+  - name: party
+    label: Partei
+    obj: entity
+    attributes:
+      - name: acronym
+        label: Kurzbezeichnung
+
+  - name: organisation
+    label: Organisation
+    obj: entity
+    attributes:
+      - name: seat_city
+        label: Sitz
+
+  - name: address
+    label: address
+    hidden: yes
+    obj: entity
+    attributes:
+      - name: city
+        label: Stadt
+      - name: street
+        label: Straße
+      - name: postcode
+        label: Postleitzahl
+
+  - name: party_member
+    label: Parteimitglied
+    obj: relation
+    attributes:
+      - name: date_start
+        label: Seit
+      - name: date_end
+        label: Bis
+
+  - name: bt_mandate
+    label: Bundestagsmandat
+    obj: relation
+    attributes:
+      - name: mdb_id
+        label: MdB-Nummer
+      - name: faction
+        label: Fraktion
+      - name: constituency
+        label: Wahlkreis
+
+  - name: side_income
+    label: Nebenverdienst
+    obj: relation
+    attributes:
+      - name: level
+        label: Stufe
+      - name: section
+        label: Abschnitt
+      - name: service
+        label: Leistung
+
+  - name: party_donation
+    label: Parteispende
+    obj: relation
+    attributes:
+      - name: internal_id
+        label: Internal ID
+        hidden: yes
+      - name: amount
+        label: Betrag (EUR)
+      - name: year
+        label: Jahr
