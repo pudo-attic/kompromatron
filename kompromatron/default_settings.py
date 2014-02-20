@@ -1,2 +1,6 @@
 DEBUG = True
 ASSETS_DEBUG = True
+
+GRANO_HOST = 'http://localhost:5000'
+GRANO_APIKEY = '9f0657d55a44469d94145a2100cca492'
+GRANO_PROJECT = 'kompromatron_C'
