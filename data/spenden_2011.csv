@@ -1,0 +1,734 @@
+id,jahr,spender_name,spender_strasse,spender_plz,spender_stadt,partei_name,betrag_eur
+7383,2011,"Ackermann, Renate",Albert-Schweitzer-Straße 2,91522,Ansbach,GRÜNE,12400.80000
+7384,2011,Aerticket AG,Boppstraße 10,10967,Berlin,GRÜNE,20000.00000
+7385,2011,"Albrecht, Jan Philipp",Grotefendstraße 1,30167,Hannover,GRÜNE,18495.92000
+7386,2011,Allianz SE,Pariser Platz 6,10117,Berlin,GRÜNE,50001.00000
+7387,2011,"Alt, Irene",Emst-Ludwig-Straße 19,55257,Budenheim,GRÜNE,10332.00000
+7388,2011,"Al-Wazir, Tarek",Rohrstraße 82,63075,Offenbach,GRÜNE,14219.34000
+7389,2011,"Amtsberg, Luise",Jungfernstieg 30,24116,Kiel,GRÜNE,12127.42000
+7390,2011,"Andreae, Kerstin",Oberau 59,79102,Freiburg,GRÜNE,13779.00000
+7391,2011,"Andresen, Rasmus",Toosbüystraße 1,24939,Flensburg,GRÜNE,12017.42000
+7392,2011,"Asch, Andrea",Strundenerstraße 150,51069,Köln,GRÜNE,18368.86000
+7393,2011,"Augsten, Frank",Waldstraße 1,99444,Blankenhain,GRÜNE,11376.00000
+7394,2011,"Bause, Margarete",Kaiserstraße 47,80801,München,GRÜNE,14907.40000
+7395,2011,"Beck, Marieluise",Wernigeroder Straße 10,28205,Bremen,GRÜNE,11389.80000
+7396,2011,"Beck, Volker",Platz der Republik 1,11011,Berlin,GRÜNE,10175.00000
+7397,2011,"Becker, Horst",Matthias-Claudius-Weg 9,53797,Lohmar,GRÜNE,19891.42000
+7398,2011,"Behm, Cornelia",An der Stammbahn 181,14532,Kleinmachnow,GRÜNE,21624.00000
+7399,2011,"Bender, Birgitt",Rosenbergstraße 63a,70176,Stuttgart,GRÜNE,18284.00000
+7400,2011,BMW,Petuelring 130,80788,München,GRÜNE,42654.85000
+7401,2011,"Bocklet, Marcus",Josef-Wirmer-Straße 12,60488,Frankfurt,GRÜNE,12628.38000
+7402,2011,"Bohn, Marret Dr",Königsfurt 23b,24796,Klein Königsförde,GRÜNE,12477.42000
+7403,2011,"Bolte, Matthi",Herforder Straße 56,33602,Bielefeld,GRÜNE,14833.31000
+7404,2011,"Bonde, Alexander",Ellbachstraße 66,72270,Baiersbronn,GRÜNE,13502.01000
+7405,2011,"Brantner, Franziska",Hirschauerstraße 5,72070,Tübingen,GRÜNE,15582.00000
+7406,2011,"Braun, Dr. Bernhard ",Carolistraße 33,67067,Ludwigshafen,GRÜNE,11045.16000
+7407,2011,"Brems, Wibke",Sparrenburgweg 2,33332,Gütersloh,GRÜNE,12850.81000
+7408,2011,"Brugger, Agnieszka",Platz der Republik 1,11011,Berlin,GRÜNE,20271.88000
+7409,2011,"Cramer, Michael",Wallotstraße 16,14193,Berlin,GRÜNE,11376.20000
+7410,2011,Daimler AG,Mercedesstraße 137,70546,Stuttgart,GRÜNE,45000.00000
+7411,2011,"Deligöz, Ekin",Schubertstraße 27,89250,Senden,GRÜNE,12848.00000
+7412,2011,"Dörner, Katja",Osloerstraße 17,53117,Bonn,GRÜNE,19427.00000
+7413,2011,"Dorn-Rancke, Angela",Kämpfrasen 8,35037,Marburg,GRÜNE,14136.38000
+7414,2011,"Düker, Monika",Grafenberger Allee 65,40237,Düsseldorf,GRÜNE,14184.52000
+7415,2011,"Dürr, Josef",Dorfstraße 8,82110,Germering,GRÜNE,10211.00000
+7416,2011,"Engstfeld, Stefan",Neckarstraße 3,40219,Düsseldorf,GRÜNE,13272.81000
+7417,2011,"Enslin, Ellen",Usinger Straße 77,61250,Usingen,GRÜNE,14157.74000
+7418,2011,"Erdmann, Anke",Am Moorwiesengraben 25,24113,Kiel,GRÜNE,11778.98000
+7419,2011,"Erfurth, Sigrid",Lange Straße 26,37249,Neu-Eichenberg,GRÜNE,17976.57000
+7420,2011,ERGO Versicherungsgruppe AG,Victoriaplatz 2,40198,Düsseldorf,GRÜNE,15000.00000
+7421,2011,"Erichson, Wolfgang",Hundweg 10,77799,Ortenberg,GRÜNE,10919.96000
+7422,2011,"Fell, Hans-Josef",Am Rod 8,97762,Hammelburg,GRÜNE,14701.56000
+7423,2011,"Filius, Jürgen",Riedleinweg 29,89075,Ulm,GRÜNE,14054.26000
+7424,2011,Firma K Zwei Systems GmbH,Riedwiesenstraße 13-17,71229,Leonberg,GRÜNE,14900.00000
+7425,2011,"Franke, Anne",Heimstraße 42,82131,Gauting,GRÜNE,10745.00000
+7426,2011,"Fritzen, Maria-Elisabeth",Am Wasserwerk 7,23617,Stockelsdorf,GRÜNE,14289.72000
+7427,2011,"Frömmrich, Jürgen",Burgstraße 3B,35066,Frankenberg,GRÜNE,12782.64000
+7428,2011,"Fürter, Thorsten",Dr-Julius-Leber-Straße 15,23552,Lübeck,GRÜNE,12321.94000
+7429,2011,"Gambke, Thomas",Wilhelm-Hauff-Straße 57b,84036,Landshut,GRÜNE,21260.00000
+7430,2011,"Gaßner, Hartmut",Drakestraße 31d,12205,Berlin,GRÜNE,21200.00000
+7431,2011,"Gehring, Kai",Rosastraße 63,45130,Essen,GRÜNE,19024.08000
+7432,2011,"Gehring, Thomas",Talstrasse 29,87544,Blaichach-Gunzesried,GRÜNE,14412.00000
+7433,2011,"Giegold, Sven",Alte Reihe 16,27313,Dörverden,GRÜNE,17952.00000
+7434,2011,"Giesbert, Tim",Eschenbruch 14,45481,Mülheim,GRÜNE,10708.00000
+7435,2011,"Göring-Eckardt, Katrin",Emst-Häckel-Platz 6,99192,Ingersleben,GRÜNE,12842.22000
+7436,2011,"Grünewald, Dieter",Sperberweg 11,66123,Saarbrücken,GRÜNE,10395.88000
+7437,2011,"Habeck, Robert Dr",Waldstraße 41,24939,Flensburg,GRÜNE,23380.22000
+7438,2011,"Häfner, Gerald",Fuststraße 5,80638,München,GRÜNE,12643.00000
+7439,2011,"Hagenah, Enno",Meterstraße 28,30169,Hannover,GRÜNE,11156.72000
+7440,2011,"Hallitzky, Eike",Am Tiergarten 24a,94127,Neuburg/Inn,GRÜNE,16221.00000
+7441,2011,"Hammann, Ursula",Falltorstraße 9a,64584,Biebesheim,GRÜNE,13026.40000
+7442,2011,"Hansen, Frank",Neumäuerstraße 39/2,74523,Schwäbisch Hall,GRÜNE,11200.00000
+7443,2011,"Hanses, Dagmar",Neue Straße 10,59581,Warstein,GRÜNE,12290.81000
+7444,2011,"Harms, Rebecca",OT Dickfeitzen 13,29496,Waddeweitz,GRÜNE,17992.83000
+7445,2011,"Hartmann, Ludwig",Alte Bergstraße 400,86899,Landsberg,GRÜNE,13140.25000
+7446,2011,"Haßelmann, Britta",Siechenmarschstraße 40,33615,Bielefeld,GRÜNE,17014.00000
+7447,2011,"Häusling, Martin",Heideweg 1,34596,Bad Zwesten,GRÜNE,11632.00000
+7448,2011,"Heinen-Kljajic, Gabriele",Nußbergstraße 29,38104,Braunschweig,GRÜNE,11285.88000
+7449,2011,"Heinold, Monika",Seeblick 16,24106,Kiel,GRÜNE,20281.60000
+7450,2011,"Helmhold, Ursula",Josua-Stegmann-Wall 8,31737,Rinteln,GRÜNE,13600.00000
+7451,2011,"Herlitzius, Bettina",Haus-Heydenstraße 201,52134,Herzogenrath,GRÜNE,14637.39000
+7452,2011,"Hermann, Winfried",Schlosserstraße 11,70178,Stuttgart,GRÜNE,12335.50000
+7453,2011,"Hermenau, Antje",Döbelner Straße 9,01129,Dresden,GRÜNE,12006.92000
+7454,2011,"Hinz, Priska",Walkmühlenweg 14,35745,Herborn,GRÜNE,11915.20000
+7455,2011,"Hofreiter, Anton",Prager Straße 3,82008,Unterhaching,GRÜNE,19147.99000
+7456,2011,"Höhn, Bärbel",Grillostraße 30,46045,Oberhausen,GRÜNE,19084.08000
+7457,2011,"Hönlinger, Ingrid",Landhausstraße 19,71634,Ludwigsburg,GRÜNE,19726.80000
+7458,2011,IBC Solar AG,Am Hochgericht 10,96231,Bad Staffelstein,GRÜNE,20000.00000
+7459,2011,"Jürgens, Andreas",Karl-Kaltwasser-Straße 27,34121,Kassel,GRÜNE,14311.89000
+7460,2011,JUWI Holding AG,Energie-Allee 1,55286,Wörrstadt,GRÜNE,16500.00000
+7461,2011,"Kamm, Christine",Luitpoldstraße 26,86157,Augsburg,GRÜNE,10253.36000
+7462,2011,"Kaufmann, Frank-Peter",Begonienweg 7a,65201,Wiesbaden,GRÜNE,12000.00000
+7463,2011,"Kekeritz, Uwe",Custenlohr 40,97215,Uffenheim,GRÜNE,13616.00000
+7464,2011,"Keller, Ska",Wrangelstraße 87,10997,Berlin,GRÜNE,19589.44000
+7465,2011,"Kessler, Klaus",Heydingerstraße 8,66740,Saarlouis,GRÜNE,10438.20000
+7466,2011,"Keul, Katja",Linnert 2,31608,Marklohe,GRÜNE,10488.77000
+7467,2011,"Keymis, Oliver",Schulstraße 9,40668,Meerbusch,GRÜNE,22153.68000
+7468,2011,"Kilic, Memet",Dammweg 84,69123,Heidelberg,GRÜNE,16680.00000
+7469,2011,"Kindler, Sven-Christian",Minister-Stüve-Straße 10,30449,Hannover,GRÜNE,18287.00000
+7470,2011,"Kirchner, Jens-Holger",Lehderstraße 106,13086,Berlin,GRÜNE,11624.24000
+7471,2011,"Klas, Heribert",Marientalstraße 34,48149,Münster,GRÜNE,16034.36000
+7472,2011,"Klein, Hans-Jürgen",Uphusen 6,21775,Steinau,GRÜNE,11216.62000
+7473,2011,"Klein-Schmeink, Maria",Heisstraße 35,48145,Münster,GRÜNE,14840.68000
+7474,2011,"Klose, Kai",Stettiner Straße 8,65510,Idstein,GRÜNE,14063.01000
+7475,2011,"Klotz, Dr. Sibyll",Kreuzbergstraße 44,10965,Berlin,GRÜNE,10200.00000
+7476,2011,"Köbler, Daniel",Drususwall 54,55131,Mainz,GRÜNE,11601.51000
+7477,2011,"Koczy, Ute",Raabeweg 2a,32657,Lemgo,GRÜNE,18534.00000
+7478,2011,"Körner, Stephan",Kiefernstraße 20,66129,Saarbrücken,GRÜNE,14996.64000
+7479,2011,"Körter, Ina",Schweewarder Straße 6,26954,Nordenham,GRÜNE,11485.16000
+7480,2011,"Kotting-Uhl, Sylvia",Akademiestraße 26,76133,Karlsruhe,GRÜNE,14477.00000
+7481,2011,"Krebs, Silke",Johanna-Kohlund-Straße 6,79111,Freiburg,GRÜNE,10909.36000
+7482,2011,"Kretschmann, Winfried",Litschenberg 4,72488,Sigmaringen,GRÜNE,20101.21000
+7483,2011,"Krickel, Werner",Im Städtchen 1,52156,Monschau,GRÜNE,13165.35000
+7484,2011,"Krischer, Oliver",Pastor-Lüpschen-Straße 82,52351,Düren,GRÜNE,11635.38000
+7485,2011,"Krüger, Mario",Seydlitzstraße 35,44263,Dortmund,GRÜNE,12000.00000
+7486,2011,"Krumwiede, Agnes",Knörstraße 8,85051,Ingolstadt,GRÜNE,20594.50000
+7487,2011,"Kühn, Stephan",Fichtenstraße 1,01097,Dresden,GRÜNE,20044.00000
+7488,2011,"Künast, Renate",Platz der Republik 1,11011,Berlin,GRÜNE,18517.24000
+7489,2011,"Kurth, Markus",Nettelbeckstraße 1,44147,Dortmund,GRÜNE,13420.00000
+7490,2011,"Kurth, Undine",Halberstädter Straße 59,06484,Quedlinburg,GRÜNE,16814.96000
+7491,2011,"Lazar, Monika",Wiedebachstraße 18,04277,Leipzig,GRÜNE,18653.00000
+7492,2011,"Legel-Wood, Birgit",Augustastraße 79,58452,Witten,GRÜNE,10720.00000
+7493,2011,"Lehmann, Siegfried",Jahnstraße 7,78315,Radolfzell,GRÜNE,12436.93000
+7494,2011,"Lemke, Eveline",Heinrich-Lersch-Weg 15,53489,Sinzig,GRÜNE,12993.01000
+7495,2011,"Limburg, Helge",Hinrich-Wilhelm-Kopf-Platz 1,30159,Hannover,GRÜNE,11597.00000
+7496,2011,"Lindner, Tobias Dr",Mozartstraße 5,76744,Wörth am Rhein,GRÜNE,11006.80000
+7497,2011,"Linnert, Karoline",Goslarer Straße 6,28207,Bremen,GRÜNE,14484.00000
+7498,2011,"Lipp, Marianne",Alte Zollstraße 35,41372,Niederkrüchten,GRÜNE,20226.40000
+7499,2011,"Loch bi hier, Barbara",Wagnerstraße 7,87671,Ronsberg,GRÜNE,18121.00000
+7500,2011,"Löhrmann, Sylvia",Schlagbaumer Straße 67,42653,Solingen,GRÜNE,30514.74000
+7501,2011,"Lorentschat, Manfred",Sanderstraße 9,46045,Oberhausen,GRÜNE,10498.80000
+7502,2011,"Lösch, Brigitte",Kerner Straße 31,70182,Stuttgart,GRÜNE,14408.59000
+7503,2011,"Maaßen, Martina",Breyeller Straße 15,41751,Viersen,GRÜNE,19738.98000
+7504,2011,"Magerl, Christian",Landshuter Straße 94,85356,Freising,GRÜNE,10498.76000
+7505,2011,"Maisch, Nicole",Bardelebenstraße 20,34130,Kassel,GRÜNE,15535.76000
+7506,2011,"Markert, Hans Christian",Am Siepbach 23,41564,Kaarst,GRÜNE,12061.20000
+7507,2011,"Matthiessen, Detlef",Dorfstraße 33,24367,Osterby,GRÜNE,10716.22000
+7508,2011,"May, Daniel",Mauergasse 2,34497,Korbach,GRÜNE,14989.42000
+7509,2011,"Meyer, Christian",Grabenstraße 6,37603,Holzminden,GRÜNE,13760.00000
+7510,2011,"Montag, Jerzy",Diefenbachstraße 45,81479,München,GRÜNE,10650.08000
+7511,2011,"Müller, Karin",Wallstraße 2f,34125,Kassel,GRÜNE,12706.38000
+7512,2011,"Müller, Kerstin",Platz der Republik 1,11011,Berlin,GRÜNE,11826.00000
+7513,2011,"Müller-Gemmeke, Beate",Im Brühl 24,72124,Pliezhausen,GRÜNE,14477.52000
+7514,2011,Münchner Rückversicherung,Königinstraße 107,80802,München,GRÜNE,15000.00000
+7515,2011,"Mütze, Thomas",Bachgartenstraße 22,63743,Aschaffenburg,GRÜNE,10515.00000
+7516,2011,"Nestle, Ingrid",Reventlouallee 28,24105,Kiel,GRÜNE,18669.00000
+7517,2011,"Nouripour, Omid",Oppenheimer Straße 17,60594,Frankfurt,GRÜNE,11336.80000
+7518,2011,"Ostendorff, Friedrich",Hanenstraße 5,59192,Bergkamen,GRÜNE,11484.00000
+7519,2011,"Ott, Dr. Hermann E.",Platz der Republik 1,11011,Berlin,GRÜNE,13157.00000
+7520,2011,"Otto, Anke",Am Wieselbau 30,14169,Berlin,GRÜNE,10869.24000
+7521,2011,"Öztürk, Mürvet",Turmstraße 5,35578,Wetzlar,GRÜNE,13496.38000
+7522,2011,"Panhoff, Hans",Cuvrystraße 25,10997,Berlin,GRÜNE,13558.83000
+7523,2011,"Paul, Josefine",Sauerländer Weg 3,48143,Münster,GRÜNE,12837.21000
+7524,2011,"Paus, Lisa",Güntzelstraße 3,10717,Berlin,GRÜNE,14565.24000
+7525,2011,"Peter, Simone Dr",Rothenbühler Weg 44,66123,Saarbrücken,GRÜNE,14100.20000
+7526,2011,"Pieta, Franz Dieter",Bourscheidtstraße 42,52249,Eschweiler,GRÜNE,12404.08000
+7527,2011,"Polat, Filiz",Hinrich-Wilhelm-Kopf-Platz 1,30159,Hannover,GRÜNE,12439.90000
+7528,2011,"Pothmer, Brigitte",Am Wildgatter 24,31139,Hildesheim,GRÜNE,18244.00000
+7529,2011,"Priggen, Reiner",Preusweg 3,52074,Aachen,GRÜNE,10790.40000
+7530,2011,"Remmel, Johannes",Graf-Lucknerstraße 51,57076,Siegen,GRÜNE,20373.53000
+7531,2011,"Reuter, Ingrid",Hohenzollernstraße 9,44135,Dortmund,GRÜNE,17540.90000
+7532,2011,"Rößner, Tabea",Külbstraße 2,55131,Mainz,GRÜNE,16463.00000
+7533,2011,"Rühle, Heide",Liststraße 65,70180,Stuttgart,GRÜNE,19196.17000
+7534,2011,"Runge, Martin",Fasanenweg 44a,82194,Gröbenzell,GRÜNE,10785.00000
+7535,2011,"Sager, Krista",Hopfenstraße 28,20359,Hamburg,GRÜNE,19316.28000
+7536,2011,"Sarrazin, Manuel",Alter Postweg 13,21075,Hamburg,GRÜNE,20870.00000
+7537,2011,"Schäffer, Verena",Mozartstraße 20,58452,Witten,GRÜNE,17134.31000
+7538,2011,"Scharfenberg, Maria",Schemrieder Straße 26,93164,Laaber,GRÜNE,11090.40000
+7539,2011,"Schick, Dr Gerhard",Moorweg 90,13509,Berlin,GRÜNE,23111.00000
+7540,2011,"Schloemer, Verena",Rütger-von-Scheven-Straße 13,52349,Düren,GRÜNE,11910.55000
+7541,2011,"Schmidt, Frithjof",Am Siepen 15,44803,Bochum,GRÜNE,18784.00000
+7542,2011,"Schroedter, Elisabeth",Marienallee 7,14552,Michendorf,GRÜNE,13983.00000
+7543,2011,"Schulz, Franz",Görlitzer Straße 61,10997,Berlin,GRÜNE,12841.24000
+7544,2011,"Schulz-Asche, Kordula",Neugasse 7,65760,Eschborn,GRÜNE,14380.79000
+7545,2011,"Sckerl, Hans-Ulrich",Haselnussweg 12,69469,Weinheim,GRÜNE,13448.98000
+7546,2011,"Seidl, Ruth",Am Hoverberg 7,41849,Wassenberg,GRÜNE,10043.28000
+7547,2011,"Siegesmund, Anja",Ebertstraße 14,07743,Jena,GRÜNE,10393.91000
+7548,2011,"Siemes, Hans-Josef",Mülforterstraße 193d,41238,Mönchengladbach,GRÜNE,10560.68000
+7549,2011,"Sitzmann, Edith",Adinda-Flemmich-Straße 1,79100,Freiburg,GRÜNE,16745.10000
+7550,2011,Sixt AG,Zugspitzstraße 1,82049,Höllriegelskreuth,GRÜNE,28000.00000
+7551,2011,"Sorge, Sarah",Mittlerer Schafhofweg 10,60598,Frankfurt,GRÜNE,12196.38000
+7552,2011,"Splett, Gisela",Breslauer Straße 43 d,76139,Karlsruhe,GRÜNE,13579.76000
+7553,2011,"Sprinkart, Adi",Gopprechts 16,87448,Waltenhofen,GRÜNE,10911.40000
+7554,2011,"Stahl, Christine",Germersheimer Straße 16,90469,Nürnberg,GRÜNE,15894.04000
+7555,2011,"Staudte, Miriam",Lüdersburger Straße 7,21379,Lüdersburg,GRÜNE,12980.00000
+7556,2011,"Steffens, Barbara",Waldsaum 3,45470,Mülheim/Ruhr,GRÜNE,25009.16000
+7557,2011,"Steiner, Dorothea",An der Petersburg 13,49082,Osnabrück,GRÜNE,18324.00000
+7558,2011,"Strehlau-Thomas, Ines",Achtern Kronskamp 4,25469,Halstenbek,GRÜNE,10952.16000
+7559,2011,"Strengmann-Kuhn, Dr. Wolfgang",Sophienstraße 6,60487,Frankfurt,GRÜNE,12853.80000
+7560,2011,"Ströbele, Hans-Christian",Holsteiner Ufer 22,10557,Berlin,GRÜNE,31110.00000
+7561,2011,Südwestmetall Verband der Metall- und Elektroindustrie Baden-Württemberg e.V.,Löffelstraße 22-24,70597,Stuttgart,GRÜNE,60000.00000
+7562,2011,"Tausendfreund, Susanna",Kagerbauerstraße 27a,82049,Pullach,GRÜNE,14594.05000
+7563,2011,"Tertocha, Peter",Honigmannstraße 5,45896,Gelsenkirchen,GRÜNE,14233.31000
+7564,2011,"Tietze, Andreas",Maybachstraße 7,25980,Westerland,GRÜNE,11114.62000
+7565,2011,"Tolle, Simone",Am Höher 17,97450,Arnstein,GRÜNE,11688.00000
+7566,2011,"Tressel, Markus",Reneauldstraße 28,66740,Saarlouis,GRÜNE,13574.50000
+7567,2011,"Trittin, Jürgen",Platz der Republik 1,11011,Berlin,GRÜNE,18468.00000
+7568,2011,"Trüpel, Dr. Helga",Lessingstraße 10,28203,Bremen,GRÜNE,14625.36000
+7569,2011,"Twesten, Elke",Zevener Straße 31,27383,Scheeßel,GRÜNE,12966.10000
+7570,2011,"Ünal, Arif",Laurenz-Kiesgen-Straße 44,51105,Köln,GRÜNE,14494.39000
+7571,2011,"Untersteller, Franz",Jettenhartstraße 5,72622,Nürtingen,GRÜNE,13925.67000
+7572,2011,Verband der Bayerischen Metall- und Elektroindustrie e.V.,Max-Joseph-Straße 5,80333,München,GRÜNE,35000.00000
+7573,2011,Verband der Chemischen Industrie e.V.,Mainzer Landstraße 55,60329,Frankfurt,GRÜNE,20000.00000
+7574,2011,"Vogel, Axel",Rud-Breitscheidt-Straße 22,16225,Eberswalde,GRÜNE,22680.00000
+7575,2011,Voith GmbH Abt WC,St-Pöltener-Straße 43,89522,Heidenheim,GRÜNE,15000.00000
+7576,2011,"von Dassel, Stephan",Gustav-Müller-Straße 17,10829,Berlin,GRÜNE,13985.24000
+7577,2011,"von Notz, Konstantin",Friedrich-Ebert-Allee 3,23879,Mölln,GRÜNE,19084.00000
+7578,2011,"Vonnekold, Gabriele",Paul-Lincke-Ufer 23,10999,Berlin,GRÜNE,14136.85000
+7579,2011,"Voß, Bernd","Diekdorf, Nr 124",25554,Nortorf,GRÜNE,11654.48000
+7580,2011,"Wagner, Daniela",Gundolfstraße 21,64287,Darmstadt,GRÜNE,19007.08000
+7581,2011,"Wagner, Mathias",Schlichterstraße 15,65185,Wiesbaden,GRÜNE,12742.38000
+7582,2011,"Wenzel, Stefan",Wilhelm-Bendick-Straße 23,37130,Gleichen,GRÜNE,12103.99000
+7583,2011,"Wieland, Wolfgang",Paul-Lincke-Ufer 32,10999,Berlin,GRÜNE,20984.00000
+7584,2011,"Wilke, Volker",Werkstraße 18,46117,Oberhausen,GRÜNE,12546.00000
+7585,2011,"Willger, Claudia",Raiffeisenstraße 7,66129,Saarbrücken,GRÜNE,10670.60000
+7586,2011,"Wilms, Dr. Valerie",Hörnstraße 4,22880,Wedel,GRÜNE,13666.00000
+7587,2011,Windframe Sarow GmbH,Staulinie 14-17,26122,Oldenburg,GRÜNE,20000.00000
+7588,2011,"Winkler, Josef",Ehrlichsweg 9,56130,Bad Ems,GRÜNE,17278.78000
+7589,2011,"Wölfle, Werner",Zeppelinstraße 47,70193,Stuttgart,GRÜNE,11735.00000
+7590,2011,"Zentis, Gudrun",Auf dem Schildchen 11,52385,Nideggen,GRÜNE,13585.80000
+7591,2011,"Ahlers, Dirk",Theodorstraße 42-90/4,22761,Hamburg,FDP,25346.70000
+7592,2011,"Ahrendt, Christian Joachim",Johann-Stelling-Straße 1,19053,Schwerin,FDP,14272.00000
+7593,2011,Allfinanz Deutsche Vermögensberatung AG,Münchener Straße 1,60329,Frankfurt,FDP,30000.00000
+7594,2011,Allianz SE,Königinstraße 28,80802,München,FDP,50001.00000
+7595,2011,ARAG Holding SE,ARAG-Platz 1,40472,Düsseldorf,FDP,20000.00000
+7596,2011,Bayerische Motorenwerke AG,Petuelring 130,80809,München,FDP,59024.04000
+7597,2011,Berolina Handelskontor Beteiligungsgesellschaft mbH,Hultschiner Damm 19,12623,Berlin,FDP,19777.80000
+7598,2011,"Bläsing, Robert",Sandfoort 80,22415,Hamburg,FDP,10900.00000
+7599,2011,"Bösch, Dr Carl",Mühlenstraße 44,49324,Melle,FDP,12233.00000
+7600,2011,"Brunkhorst, Angelika",Wohlde 6,27243,Winkelsett,FDP,10072.50000
+7601,2011,CNC-Communication & Network Consulting AG,Leopoldstraße 10,80802,München,FDP,48000.00000
+7602,2011,Daimler AG,Mercedesstraße 137,70546,Stuttgart,FDP,45000.00000
+7603,2011,Deutsche Vermögensberatung AG,Münchener Straße 1,60329,Frankfurt,FDP,40000.00000
+7604,2011,"Deutschmann, Reiner",Prietitzer Straße 19,01917,Kamenz,FDP,10670.00000
+7605,2011,"Dommermuth, Philipp",Bahnhofstraße 71,56410,Montabaur,FDP,48000.00000
+7606,2011,"Dommermuth, Ralph",Friedensstraße 4,56410,Montabaur,FDP,48000.00000
+7607,2011,"Döring, Patrick",Kleefelder Straße 11,30175,Hannover,FDP,11678.00000
+7608,2011,"Dyckmans, Mechthild",Bei den Tannen 5,34128,Kassel,FDP,10700.00000
+7609,2011,ERGO Versicherungsgruppe AG,Victoriaplatz 2,40477,Düsseldorf,FDP,15000.00000
+7610,2011,Evonik Industries AG,Rellinghauser Straße 1-11,45128,Essen,FDP,35000.00000
+7611,2011,"Fauser, Beate",Forststraße 38,75382,Althengstett,FDP,13320.00000
+7612,2011,Gauselmann AG,Merkur-Allee 1-15,32339,Espelkamp,FDP,12000.00000
+7613,2011,"Hacker, Thomas",St-Nikolaus-Straße 2,95445,Bayreuth,FDP,10840.00000
+7614,2011,"Hessel, Katja",Bülowstraße 67,90491,Nürnberg,FDP,12000.00000
+7615,2011,"Jansen-Winkeln, Dr. Anno Maria",Rheydter Straße 60,41065,Mönchengladbach,FDP,10918.50000
+7616,2011,"Joh. Berenberg, Gossler & Co KG",Neuer Jungfernstieg 20,20354,Hamburg,FDP,25000.00000
+7617,2011,"Kamp, Heiner",Kaupmanns Kamp 33a,33775,Versmold,FDP,11312.00000
+7618,2011,"Klein, Karsten",Leiderer Stadtweg 17,63741,Aschaffenburg,FDP,10236.00000
+7619,2011,"Lanfermann, Heinz",Brandenburger Straße 66,14467,Potsdam,FDP,10420.00000
+7620,2011,"Leibrecht, Harald W.",Schloß Ingersheim,74379,Ingersheim,FDP,11633.00000
+7621,2011,"Leonhard, Gino",Dammstraße 8,18528,Bergen,FDP,10072.00000
+7622,2011,"Leutheusser-Schnarrenberger, Sabine",Wielinger Straße 10b,82340,Feldafing,FDP,11684.00000
+7623,2011,"Meierhofer, Horst",Nürnberger Straße 160,93059,Regensburg,FDP,12109.70000
+7624,2011,"Meinhardt, Patrick",Steinstraße 5,76530,Baden-Baden,FDP,16344.00000
+7625,2011,"Mücke, Jan",Mittlere Bergstraße 18A,01445,Radebeul,FDP,10064.00000
+7626,2011,Münchener Rückversicherungsgesellschaft AG,Königinstraße 107,80802,München,FDP,15000.00000
+7627,2011,"Neumann, Prof Dr Martin",Emst-Thälmann-Straße 58,03226,Vetschau,FDP,16857.00000
+7628,2011,"Paul, Stephen",Altensenner Weg 104,32052,Herford,FDP,11600.00000
+7629,2011,Philip Morris GmbH,Am Haag 14,82166,Gräfelfing,FDP,12000.00000
+7630,2011,"Reimers, Britta",Hennstedter Straße 14,25581,Poyenberg,FDP,12300.00000
+7631,2011,"Reinemund, Dr Birgit",Wilhelmstraße 20,68259,Mannheim,FDP,10765.00000
+7632,2011,Robert Bosch GmbH,Robert-Bosch-Platz 1,70839,Gerlingen,FDP,25000.00000
+7633,2011,Salo Holding AG,Spaldingstraße 57-59,20097,Hamburg,FDP,32913.38000
+7634,2011,"Schäffler, Frank",Gewinghauser Straße 77,32257,Bünde,FDP,12620.00000
+7635,2011,"Stadler, Dr. Max Josef",Hochlandweg 7,94036,Passau,FDP,10800.00000
+7636,2011,"Suding, Katja",Heinrich-Bomhoff-Weg 2,22607,Hamburg,FDP,10734.60000
+7637,2011,Verband der Bayerischen Metall- und Elektroindustrie e.V.,Max-Joseph-Straße 5,80333,München,FDP,80000.00000
+7638,2011,Verband der Chemischen Industrie e.V.,Mainzer Landstraße 55,60329,Frankfurt,FDP,72000.00000
+7639,2011,Voith GmbH,Sankt Pöltener Straße 43,89522,Heidenheim,FDP,15000.00000
+7640,2011,"Wissing, Dr Volker",Hauptstraße 2,76889,Barbelroth,FDP,10201.00000
+7641,2011,"Wolff, Hartfrid",Fuchshofweg 16,73614,Schorndorf,FDP,12380.92000
+7642,2011,A Zovko GmbH & Co KG,Carl-Zeiss-Straße 20,74078,Heilbronn,CDU,10300.00000
+7643,2011,Aesculap AG,Am Aesculap-Platz,78532,Tuttlingen,CDU,15000.00000
+7644,2011,ALBA Group plc & Co KG,Bismarckstraße 105,10625,Berlin,CDU,15000.00000
+7645,2011,Aldra Ernst Guenther Albers GmbH,Hindenburgstraße 26,25704,Meldorf,CDU,20000.00000
+7646,2011,Allfinanz Deutsche Vermögensberatung AG,Münchener Straße 1,60329,Frankfurt,CDU,40000.00000
+7647,2011,Allianz SE,Königinstraße 28,80802,München,CDU,50001.00000
+7648,2011,Altira Renewables Management GmbH,Grüneburgweg 18,60322,Frankfurt,CDU,30000.00000
+7649,2011,Anton Häring e. K. Werk für Präzisionstechnik,Bergstraße 9,78585,Bubsheim,CDU,41000.00000
+7650,2011,Arbeitgeberverband der Metall- und Elektroindustrie Lüdenscheid e.V.,Staberger Straße 5,58511,Lüdenscheid,CDU,25000.00000
+7651,2011,August Storck KG,Waldstraße 27,13403,Berlin,CDU,20000.00000
+7652,2011,"Bausinger, Anton",Herrigergasse 11,50933,Köln,CDU,10524.75000
+7653,2011,Bayerische Motorenwerke AG,Petuelring 130,80788,München,CDU,57048.34000
+7654,2011,"Bellmann, Veronika",Am Pfarrberg 8,09575,Eppendorf,CDU,12616.18000
+7655,2011,"Berenberg Bank Joh. Berenberg, Gossler & Co. KG",Neuer Jungfernstieg 20,20354,Hamburg,CDU,180000.00000
+7656,2011,"Biesenbach, Peter MdL",Etapler Platz 2,42499,Hückeswagen,CDU,12809.80000
+7657,2011,Black Eagle KG,Poststraße 7,40213,Düsseldorf,CDU,30000.00000
+7658,2011,"Blume, Dr Heiko",Zum Hasel 2,29525,Uelzen,CDU,19712.00000
+7659,2011,"Bogdol, Detlef",Poppenbüttler Bogen 4,22399,Hamburg,CDU,14000.00000
+7660,2011,"Brietzke, Klaus",Dorfstraße 15a,16567,Schönfließ,CDU,11316.76000
+7661,2011,"Bücher, Dietmar",Veitenmühlenweg 2,65510,Idstein,CDU,20000.00000
+7662,2011,Bundesverband Deutscher Vermögensberater e.V.,Wilhelm-Leuschner-Straße 17-19,60329,Frankfurt,CDU,21000.00000
+7663,2011,CITTI Handelsgesellschaft mbH & Co KG,Mühlendamm 1,24113,Kiel,CDU,22500.00000
+7664,2011,Daimler AG,Mercedesstraße 137,70327,Stuttgart,CDU,150000.00000
+7665,2011,"Daun, Claas",Roggenmoorweg 33,26180,Rastede,CDU,11800.00000
+7666,2011,"Demirbüken-Wegner, Emine",Auguste-Viktoria-Straße 28,13467,Berlin,CDU,14534.49000
+7667,2011,"Deppmeyer, Otto",Hemeringer Straße 6,31840,Hessisch Oldendorf,CDU,10681.68000
+7668,2011,Dettmers Manske Weinhardt Rechtsanwälte Steuerberater Wirtschaftsprüfer,Kurfürstendamm 48-49,10707,Berlin,CDU,13000.00000
+7669,2011,Deutsche Vermögensberatung Aktiengesellschaft DVAG,Münchener Straße 1,60329,Frankfurt,CDU,135500.00000
+7670,2011,DIC Asset AG,Eschersheimer Landstraße 223,60320,Frankfurt,CDU,15000.00000
+7671,2011,"Dietmann, Michael MdA",Am Steinbergpark 61,13437,Berlin,CDU,18180.02000
+7672,2011,"Dombrowski, Dieter",Dorfstraße 30,14715,Milower Land (OT Bahnitz),CDU,11578.10000
+7673,2011,Dr. August Oetker KG,Lutterstraße 14,33617,Bielefeld,CDU,60000.00000
+7674,2011,Dr. Ing. h.c. F. Porsche AG,Porscheplatz 1,70435,Stuttgart,CDU,50000.00000
+7675,2011,Dr Theiss Naturwaren GmbH,Michelinstraße 20,66424,Homburg,CDU,40500.00000
+7676,2011,EADS Deutschland GmbH,Willy-Messerschmitt-Straße 1,85521,Ottobrunn,CDU,20000.00000
+7677,2011,EAN Energieanlagen Nord GmbH,Gerstenstraße 7,17034,Neubrandenburg,CDU,11000.00000
+7678,2011,ERGO Versicherungsgruppe AG,Victoriaplatz 2,40477,Düsseldorf,CDU,15000.00000
+7679,2011,Evonik Industries AG,Rellinghauser Straße 1-11,45128,Essen,CDU,35000.00000
+7680,2011,"Federle, Dr Lisa",Österbergstraße 11,72074,Tübingen,CDU,13221.02000
+7681,2011,"Finck, August",Amiraplatz 1,80333,München,CDU,15500.00000
+7682,2011,Fr Lürssen Werft GmbH & Co KG,Zum alten Speicher 11,28759,Bremen,CDU,11500.00000
+7683,2011,"Franz, Klaus",Kuhlenkötterweg 26,44795,Bochum,CDU,10990.54000
+7684,2011,Gauselmann AG,Merkur-Allee 1-15,32339,Espelkamp,CDU,12000.00000
+7685,2011,Gegenbauer Holding SA & Co. KG,Paul-Robeson-Straße 37,10439,Berlin,CDU,14500.00000
+7686,2011,"Gerhold, Dr Karl",Hanebuthwinkel 28,30655,Hannover,CDU,12306.78000
+7687,2011,"Gorr, Angela",Kreuzberg 1,38855,Wernigerode,CDU,11352.71000
+7688,2011,"Goschmann, Stefany",Hügelstraße 67,64653,Lorsch,CDU,12000.00000
+7689,2011,"Gram, Andreas",Markgrafenstraße 57,10117,Berlin,CDU,11790.00000
+7690,2011,"Gröhler, Klaus-Dieter",Otto-Suhr-Allee 100,10585,Berlin,CDU,10470.00000
+7691,2011,"Heinemann, Robert",Lobuschstraße 12,22765,Hamburg,CDU,18489.29000
+7692,2011,"Heintze, Roland",Wendlohstraße 37b,22459,Hamburg,CDU,10166.34000
+7693,2011,"Heister-Neumann, Elisabeth",Chardtstraße 13,38350,Helmstedt,CDU,10854.25000
+7694,2011,"Henkel, Frank",Friedrichsgracht 56,10178,Berlin,CDU,15130.00000
+7695,2011,"Herrenknecht, Dr. Ing E. h. Martin",Waldweg 9,77963,Schwanau,CDU,37000.00000
+7696,2011,"Hintze, Peter MdB",Reichenberger Straße 11b,53604,Bad Honnef,CDU,10203.28000
+7697,2011,"Horbach, Peter",Niederbreitbacher Straße 10a,53547,Hausen-Solscheid,CDU,15000.00000
+7698,2011,"Huth, Dr Harald G",Badenallee 12,14052,Berlin,CDU,20000.00000
+7699,2011,IBC Solar AG,Am Hochgericht 10,96231,Bad Staffelstein,CDU,20000.00000
+7700,2011,Innerstadt GmbH & Co KG,Ludwig-Ennecerus-Platz 1,31535,Neustadt,CDU,27000.00000
+7701,2011,"ITG Ingenieur-, Tief- und Gleisbau GmbH",Koppelstraße 37,18437,Stralsund,CDU,16000.00000
+7702,2011,JUWI Holding AG,Energie-Allee 1,55286,Wörrstadt,CDU,16000.00000
+7703,2011,"Keller, Veronika",Alfred-Keller-Straße 55,53721,Siegburg,CDU,20500.00000
+7704,2011,"Kipp, Dr. h. c. Karl-Heinz",Friedrichstraße 15,55232,Alzey,CDU,20000.00000
+7705,2011,"Klare, Karl-Heinz",Gagelstraße 14,49356,Diepholz,CDU,12754.67000
+7706,2011,"Kley, Max Dietrich",Bergstraße 72,69120,Heidelberg,CDU,16500.00000
+7707,2011,"Klosseck, Rolf",Pfalzgrafenweg 18/1,72766,Reutlingen,CDU,15000.00000
+7708,2011,"König, Dr Armin",Jahnstraße 9,66557,Illingen,CDU,10070.28000
+7709,2011,"Körte, Prof Dr Niels Hahns",Mühle 7,12587,Berlin,CDU,12381.85000
+7710,2011,"Krogmann, Dr. Martina",Rykestraße 7,10405,Berlin,CDU,12652.46000
+7711,2011,Kultur & Reisen e.V.,Hochstraße 63,58095,Hagen,CDU,28500.74000
+7712,2011,Laboratoire Biosthetique Kosmetik GmbH & Co KG,Gülichstraße 3-5,75179,Pforzheim,CDU,25000.00000
+7713,2011,"Langmann, Prof. Dr. Hans Joachim",Merckstraße 40,64342,Seeheim-Jugenheim,CDU,34800.00000
+7714,2011,"Langmann, Dr. Marlies",Merckstraße 40,64342,Seeheim-Jugenheim,CDU,20000.00000
+7715,2011,"Lauk, Prof Dr Kurt Joachim",Königstraße 1a,70173,Stuttgart,CDU,11000.00000
+7716,2011,Löderburger Baustoff + Transport GmbH & Co KG,Förderstedter Straße 6c,39418,Staßfurt,CDU,10150.00000
+7717,2011,LUTHARDT GmbH,Reinhardtstraße 58,10117,Berlin,CDU,22000.00000
+7718,2011,M M Warburg & Co Kommanditgesellschaft auf Aktien,Ferdinandstraße 75,20095,Hamburg,CDU,30000.00000
+7719,2011,ME-LE GmbH & Co Wärmeservice KG,Eggesiner Straße 9c,17358,Torgelow,CDU,11000.00000
+7720,2011,Merck Finck & Co oHG Privatbankiers,Paracellistraße 16,80333,München,CDU,20560.00000
+7721,2011,Verband der Metall- und Elektroindustrie Nordrhein-Westfalen e.V.,Uerdinger Straße 58-62,40474,Düsseldorf,CDU,75000.00000
+7722,2011,"Meyer, Detlev",Liebfrauenkamp 6a,31535,Neustadt,CDU,43100.00000
+7723,2011,"Mönstadt, Dietrich",Lübecker Straße 5,19053,Schwerin,CDU,10080.00000
+7724,2011,"Moritz, Arne",Lacher Straße 50,42657,Solingen,CDU,10911.00000
+7725,2011,"Müller, Holger MdL",Beienburger Straße 39,51503,Rösrath,CDU,15798.52000
+7726,2011,Münchener Rückversicherungsgesellschaft AG,Königinstraße 107,80802,München,CDU,15000.00000
+7727,2011,Nordagrar GmbH,Zum Gutshof,23717,Stendorf,CDU,15000.00000
+7728,2011,"Odewald, Dr. Jens",Lustheide 31,51427,Bergisch-Gladbach,CDU,19500.00000
+7729,2011,"Oetker, Dr Arend",Bismarckallee 22,14193,Berlin,CDU,25000.00000
+7730,2011,"Paal, Claus",Bei der Kapelle 4,71384,Weinstadt,CDU,14015.00000
+7731,2011,"Paul, Dr Michael",Pflasterhofweg 19b,50999,Köln,CDU,17251.02000
+7732,2011,P-D ChemiePark Bitterfeld Wolfen GmbH,Zörbiger Straße 22,06749,Bitterfeld-Wolfen,CDU,10300.00000
+7733,2011,"Pergande, Wilfried",Mucher Straße 8,51109,Köln,CDU,12000.00000
+7734,2011,Philip Morris GmbH,Am Haag 14,82166,Gräfelfing,CDU,12000.00000
+7735,2011,"Pofalla, Ronald",Lindenallee 49,47533,Kleve,CDU,12784.76000
+7736,2011,"Pohl, Prof. Dr. Reinfried",Gottfried-Keller-Straße 14,35039,Marburg,CDU,65000.00000
+7737,2011,"Polenz, Ruprecht",Straßburger Weg 18,48151,Münster,CDU,10583.40000
+7738,2011,"Post, Norbert",Neersbroicher Straße 54c,41066,Mönchengladbach,CDU,11317.80000
+7739,2011,R Kossow & Levermann GmbH,Carl-Kossow-Straße 46,18337,Marlow,CDU,16677.55000
+7740,2011,"Rachel, Thomas",Binsfelder Straße 95,52351,Düren,CDU,10989.72000
+7741,2011,"Rademacher, Franz-Josef",Rheinallee 111,40545,Düsseldorf,CDU,25651.08000
+7742,2011,"Raettig, Dr Lutz",Wöhlerstraße 13,60323,Frankfurt,CDU,14875.20000
+7743,2011,"Rehm, Florian",Neuer Weg 9,38302,Wolfenbüttel,CDU,15000.00000
+7744,2011,Reichenecker Holding GmbH & Co KG,Untere Rietstraße 30,72555,Metzingen,CDU,10650.00000
+7745,2011,"Reif, Clemens",Schrammweg 1,35745,Herborn,CDU,15470.96000
+7746,2011,Remondis GmbH & Co KG,Ost Pernitzer Straße 19a,14797,Kloster Lehnin,CDU,14900.00000
+7747,2011,Rheinmetall AG,Rheinmetall-Platz 1,40476,Düsseldorf,CDU,16000.00000
+7748,2011,Robert Bosch GmbH,Robert-Bosch-Platz 1,70839,Gerlingen-Schillerhöhe,CDU,40000.00000
+7749,2011,"Roock, Hans Detlef",Poppenbütteler Weg 222,22399,Hamburg,CDU,10030.00000
+7750,2011,Rothenberger AG,Spessartstraße 2-4,65779,Kelkheim,CDU,47000.00000
+7751,2011,"Röttgen, Dr. Norbert",Johannes-Albers-Allee 3,53639,Königswinter,CDU,11193.96000
+7752,2011,Rudolf Wild GmbH & Co KG,Rudolf-Wild-Straße 107-115,69214,Eppelheim,CDU,20000.00000
+7753,2011,"Saftig, Dr Alexander Keltenstraße 1",,56736,Kottenheim,CDU,11880.00000
+7754,2011,Schaeffler Technologies GmbH & Co KG,Industriestraße 1-3,91074,Herzogenaurach,CDU,49000.00000
+7755,2011,"Scharf, Jürgen",Am Mittelteich 12c,39114,Magdeburg,CDU,10270.00000
+7756,2011,Scheidt GmbH & Co KG,Galgenfeld 2,31737,Rinteln,CDU,13000.00000
+7757,2011,"Schleifer, Dr Carl-Hermann",Dorfstraße 5,24351,Thumby-Sieseby,CDU,10500.00000
+7758,2011,"Schmidt-Weiss, Werner",Mittlerer Weg 62,74564,Crailsheim,CDU,13470.00000
+7759,2011,"Schnellecke, Prof Rolf",Kiefernweg 7,38446,Wolfsburg,CDU,25000.00000
+7760,2011,"Schnieder, Patrick",Im Hammesgarten 24,54687,Arzfeld,CDU,10138.45000
+7761,2011,"Schreiner, Gerd",Am Fort Heiligkreuz 15,55131,Mainz,CDU,11450.00000
+7762,2011,"Schröder, Stephan",Alt Kosenow 46,17398,Neu Kosenow,CDU,11000.00000
+7763,2011,"Schultze-Berndt, Jürn Jakob",Ludolfinger Weg 43c,13465,Berlin,CDU,11780.00000
+7764,2011,"Selle, Johannes",Oberdorf 1,99706,Großfurra,CDU,10779.80000
+7765,2011,"Steffel, Dr. Frank",Sigismundkorso 54,13465,Berlin,CDU,10280.00000
+7766,2011,Steffen GmbH,Mühlenstraße 72,17098,Friedland,CDU,13476.75000
+7767,2011,"Stihl, Dipl-Ing Hans Peter",Silcherstraße 33,71686,Remseck,CDU,13000.00000
+7768,2011,STINAG Stuttgart Invest AG,Böblinger Straße 104,70199,Stuttgart,CDU,19800.00000
+7769,2011,STRELAPARK Einkaufszentrum GmbH & Co KG,Mühlendamm 1,24113,Kiel,CDU,12400.00000
+7770,2011,Ströer Deutsche Städte Medien GmbH,Puschkinallee 6a,12435,Berlin,CDU,13400.00000
+7771,2011,Südwestmetall Verband der Metall- und Elektroindustrie Baden-Württemberg e.V.,Löffelstraße 22-24,70597,Stuttgart,CDU,105000.00000
+7772,2011,Südzucker AG,Theodor-Heuss-Anlage 12,68165,Mannheim,CDU,13000.00000
+7773,2011,Tengelmann Warenhandelsgesellschaft KG,Wissollstraße 5-43,45478,Mülheim an der Ruhr,CDU,15000.00000
+7774,2011,"Thiele, Ulf MdL",Truglandsweg 11,26670,Uplengen,CDU,10044.55000
+7775,2011,"Tillich, Stanislaw",Siedlung 5,01920,Panschwitz-Kuckau,CDU,12100.00000
+7776,2011,TOCOS Beteiligung GmbH,Ballindamm 36,20095,Hamburg,CDU,44500.00000
+7777,2011,Trimet Aluminium AG,Aluminiumallee 1,45356,Essen,CDU,30500.00000
+7778,2011,TRUMPF Laser- und Systemtechnik GmbH,Johann-Maus-Straße 2,71254,Ditzingen,CDU,50000.00000
+7779,2011,Trumpf Werkzeugmaschinen GmbH & Co. KG,Johann-Maus-Straße 2,71254,Ditzingen,CDU,85000.00000
+7780,2011,UBG Unternehmensberatung & Betreuung GmbH,Bismarckstraße 7,35037,Marburg,CDU,40000.00000
+7781,2011,Verband der Chemischen Industrie e.V.,Mainzer Landstraße 55,60329,Frankfurt,CDU,110000.00000
+7782,2011,Voith GmbH,Sankt Pöltener Straße 43,89522,Heidenheim,CDU,31000.00000
+7783,2011,August von Finck,Amiraplatz 1,80333,München,CDU,15000.00000
+7784,2011,"von Waldburg-Zeil-Trauchburg, Fürst Georg",Schloss Zeil,88299,Leutkirch im Allgäu,CDU,12000.00000
+7785,2011,"Voßhoff, Andrea MdB",Am Körgraben 1g,14712,Rathenow,CDU,13004.28000
+7786,2011,"Wacker, Georg",In den Fensenbäumen 23,69198,Schriesheim,CDU,19241.08000
+7787,2011,"Weber, Günther",Zachow 5b,17094,Groß Nemerow,CDU,10700.00000
+7788,2011,"Wersich, Dietrich",Alsterdorfer Straße 328,22297,Hamburg,CDU,13594.00000
+7789,2011,"Wimmer, Wiljo",Westerburgstraße 8a,41541,Dormagen,CDU,15556.93000
+7790,2011,"Wollenschlaeger, Thilo-Harry",Werkstraße 1,16727,Oberkrämer OT Bötzow,CDU,25617.91000
+7791,2011,Zellstoff Stendal GmbH,Goldbecker Straße 1,39596,Arneburg,CDU,13500.00000
+7792,2011,"Zylajew, Willi",Severinusstraße 84,50354,Hürth,CDU,12764.04000
+7793,2011,adp Gauselmann GmbH,Merkur-Allee 1-15,32339,Espelkamp,CSU,12000.00000
+7794,2011,"Aigner, Ilse MdB",Wiesseer Straße 16,83703,Gmund am Tegernsee,CSU,12294.72000
+7795,2011,Allianz SE,Königinstraße 28,80802,München,CSU,50001.00000
+7796,2011,BAUER Aktiengesellschaft,BAUER-Straße 1,86529,Schrobenhausen,CSU,15000.00000
+7797,2011,Bayerischer Bauindustrieverband e.V.,Oberanger 32,80331,München,CSU,37000.00000
+7798,2011,BayWa AG,Arabellastraße 4,81925,München,CSU,15035.00000
+7799,2011,Bionorica SE,Kerschensteiner Straße 11-15,92318,Neumarkt,CSU,14300.00000
+7800,2011,Bayerische Motorenwerke AG,Petuelring 130,80788,München,CSU,141750.44000
+7801,2011,"Brunner, Helmut MdL",Hinterdietzberg 1,94239,Ruhmannsfelden,CSU,13142.90000
+7802,2011,Daimler AG,Mercedesstraße 137,70546,Stuttgart,CSU,45000.00000
+7803,2011,"Eck, Gerhard MdL",Am Schärf 15,97499,Donnersdorf,CSU,12392.36000
+7804,2011,ERGO Versicherungsgruppe AG,Victoriaplatz ,40198,Düsseldorf,CSU,15000.00000
+7805,2011,Evonik Industries AG,Rellinghauser Straße 1-11,45128,Essen,CSU,15000.00000
+7806,2011,Fahrenschon Georg,Waldkirchbogen 4,82061,Neuried,CSU,10727.82000
+7807,2011,"Friedrich, Hans Peter MdB",Südring 23,95032,Hof,CSU,10693.80000
+7808,2011,"Görlitz, Erika MdL",Ingolstädter Straße 126,85077,Manching,CSU,11724.14000
+7809,2011,"Haderthauer, Christine MdL",Haltmayrstraße 3,85049,Ingolstadt,CSU,14686.98000
+7810,2011,"Hahn, Florian MdB",Bauemweg 19,85640,Putzbrunn,CSU,12930.14000
+7811,2011,"Herrmann, Joachim MdL",Bogenweg 11,91054,Erlangen,CSU,12972.90000
+7812,2011,"Hintersberger, Johannes-A. MdL",Neuburger Straße 15,86167,Augsburg,CSU,10366.34000
+7813,2011,"Huber, Dr MdL",Hofgasse 6,84539,Ampfing,CSU,13137.14000
+7814,2011,"Huml, Melanie MdL",Luitpoldstraße 55,96052,Bamberg,CSU,12649.86000
+7815,2011,IBC Solar AG,Am Hochgericht 10,96231,Bad Staffelstein,CSU,47000.00000
+7816,2011,JK Wohnbau AG,Leopoldstraße 8,80802,München,CSU,12500.00000
+7817,2011,"Koschyk, Hartmut MdB",Schlossweg 5,95497,Goldkronach,CSU,14375.44000
+7818,2011,Krauss-Maffei Wegmann GmbH & Co. KG,Krauss-Maffei-Straße 11,80997,München,CSU,17000.00000
+7819,2011,"Meißner, Christian",Kronacher Straße 37,96215,Lichtenfels,CSU,10737.14000
+7820,2011,"Merk, Dr. Beate MdL",Schulstraße 7,89233,Neu-Ulm,CSU,13137.90000
+7821,2011,"Michelbach, Dr. Hans MdB",Casimirstraße 11,96450,Coburg,CSU,10168.04000
+7822,2011,"Möller, Horst",Poppenbütteler Weg 25,22339,Hamburg,CSU,10084.00000
+7823,2011,"Müller, Emilia",Hinterrandsberg 7,92436,Bruck,CSU,10514.20000
+7824,2011,"Müller, Dr. Gerd MdB",Neisser Straße 5,87437,Kempten,CSU,10562.84000
+7825,2011,Münchener Rückversicherungsgesellschaft AG,Königinstraße 107,80802,München,CSU,15000.00000
+7826,2011,"Oswald, Eduard MdB",Waldweg 18,86424,Dinkelscherben,CSU,12743.83000
+7827,2011,Philip Morris GmbH,Am Haag 14,82166,Gräfelfing,CSU,12000.00000
+7828,2011,"Plenk, Helmut",Bischof-Freundorfer-Straße 1,94253,Bischofsmais,CSU,20258.00000
+7829,2011,"Pschierer, Franz MdL",Sebastianspark 7,87719,Mindelheim,CSU,12304.86000
+7830,2011,"Ramsauer, Dr. Peter MdB",Mühlenstraße 3,83374,Traunwalchen,CSU,12264.72000
+7831,2011,"Ruck, Dr. Christian MdB",Heilig-Kreuz-Straße 24,86152,Augsburg,CSU,11463.04000
+7832,2011,"Sackmann, Markus MdL",Heimrad-Prem-Straße 1,93426,Roding,CSU,20756.56000
+7833,2011,Schertier Holding,Hofsteigstraße 4,06923,"Lauterach, Österreich",CSU,20000.00000
+7834,2011,"Scheuer, Andreas MdB",Vomholzstraße 107,94036,Passau,CSU,11714.68000
+7835,2011,"Schmidt, Christian MdB",Ansbacher Straße 20b,91413,Neustadt a d Aisch,CSU,10792.84000
+7836,2011,"Schmidt-Burkhardt, Henriette",An der Schwedenschanze 11,90455,Nürnberg,CSU,20000.00000
+7837,2011,Schön Klinik Verwaltung GmbH,Seestraße 5a,83209,Prien am Chiemsee,CSU,25000.00000
+7838,2011,"Seehofer, Horst MdB",Nymphenburger Straße 64,80335,München,CSU,11139.72000
+7839,2011,"Söder, Dr. Markus MdL",Fliederweg 11,90480,Nürnberg,CSU,13072.90000
+7840,2011,"Spaenle, Dr. Ludwig MdL",Virchowstraße 27,80805,München,CSU,12956.87000
+7841,2011,"Stamm, Barbara MdL","Spessartstraße 71,",97082,Würzburg,CSU,10570.48000
+7842,2011,TQ-Systems GmbH,Mühlstraße 2,82229,Seefeld,CSU,15000.00000
+7843,2011,Verband der Bayerischen Metall- und Elektroindustrie e.V.,Max-Joseph-Straße 5,80333,München,CSU,371310.00000
+7844,2011,Verein der Bayerischen Chemischen Industrie e.V.,Innstraße 15,81679,München,CSU,47000.00000
+7845,2011,"Wolf, Martin",Ingolstädter Straße 40,85276,Pfaffenhofen,CSU,10430.60000
+7846,2011,"Adler, Hans-Henning",Weidenstraße 17 ,26135,Oldenburg,Linke,19764.00000
+7847,2011,"Aggelidis, Michael",Falkenweg 32 ,53125,Bonn,Linke,12312.50000
+7848,2011,"Akbayir, Hamide",Lindelaufstraße 28 ,51061,Köln,Linke,12870.00000
+7849,2011,"Alpers, Agnes",Innsbrucker Straße 6 ,28215,Bremen,Linke,11350.00000
+7850,2011,"Atalan, Ali",Böttcherstraße 13a ,48165,Münster,Linke,12460.00000
+7851,2011,"Bartsch, Dietmar",Schlehenweg 2,18375,Prerow,Linke,12260.00000
+7852,2011,"Behrens, Herbert",Am Hochzeitswald 56 ,27711,Osterholz-Scharmbeck,Linke,15478.41000
+7853,2011,"Beuermann, Bärbel",Kurhausstraße 106 ,44652,Herne,Linke,13648.55000
+7854,2011,"Binder, Karin",Marienstraße 38 ,76137,Karlsruhe,Linke,14500.00000
+7855,2011,"Birkwald, Matthias W.",Vondelstraße 12 ,50677,Köln,Linke,19738.86000
+7856,2011,"Bisky, Lothar",Kurzwalde 8g,04889,Schildau,Linke,13800.00000
+7857,2011,"Bluhm, Heidrun",Schloßgartenallee 21,19061,Schwerin,Linke,13270.00000
+7858,2011,"Bockhahn, Steffen",Lange Straße 24 ,18055,Rostock,Linke,14109.00000
+7859,2011,"Böth, Gunhild",Taubenstraße 15 ,42281,Wuppertal,Linke,18100.00000
+7860,2011,"Buchholz, Christine",Weichselstraße 65 ,12043,Berlin,Linke,12180.00000
+7861,2011,"Bull, Birke",Mandolinenweg 8a,06128,Halle,Linke,10758.00000
+7862,2011,"Bulling-Schröter, Eva-Maria",Röntgenstraße 41a ,85055,Ingolstadt,Linke,13850.00000
+7863,2011,"Bunge, Martina",Heinrich-Heine-Straße 29 ,18119,Rostock,Linke,15025.00000
+7864,2011,"Butterwegge, Carolin",Clarenbachstraße 154 ,50931,Köln,Linke,12360.00000
+7865,2011,"Claus, Roland",Wenzelgasse 12 ,06618,Naumburg,Linke,15170.00000
+7866,2011,"Conrads, Anna",Holteistraße 68 ,47057,Duisburg,Linke,12170.00000
+7867,2011,"Dagdelen, Sevim",Oskar-Hoffmann-Straße 37 ,44789,Bochum,Linke,20060.00000
+7868,2011,"Dehm-Desoi, Jörg-Diether",Am Rainbaum 7-9,36132,Eiterfeld,Linke,11730.00000
+7869,2011,"Demirel, Özlem Alev",Europaring 1 ,51109,Köln,Linke,11015.00000
+7870,2011,"Dittrich, Heidrun",Varrelmannstraße 1 ,30453,Hannover,Linke,11630.00000
+7871,2011,"Dreibus, Werner",Vogesenstraße 36 ,63456,Hanau,Linke,16920.00000
+7872,2011,"Enkelmann, Dagmar",Alte Schönower Chaussee 25,16321,Bernau,Linke,15695.00000
+7873,2011,"Ernst, Cornelia",Hartwigweg 8 ,01156,Dresden,Linke,15180.00000
+7874,2011,"Ernst, Klaus Friedrich",Kammerbergstraße 24 ,97450,Arnstein,Linke,14410.00000
+7875,2011,"Flauger, Kreszentia",Bei der Kammer 22,27793,Wildeshausen,Linke,11775.88000
+7876,2011,"Freye, Wolfgang",Windmühlenstraße 25 ,45147,Essen,Linke,12040.51000
+7877,2011,"Gallert, Wulf",Nahrstedter Weg 29,39110,Magdeburg,Linke,19160.00000
+7878,2011,"Gehrcke-Reymann, Wolfgang",Rykestraße 39 ,10405,Berlin,Linke,13560.00000
+7879,2011,"Gohlke, Nicole",Pariser Straße 44 ,81667,München,Linke,13820.00000
+7880,2011,"Golze, Diana",Eulerstraße 13 ,14712,Rathenow,Linke,12285.87000
+7881,2011,"Groth, Annette",Walter-Flex-Straße 44a ,70619,Stuttgart,Linke,14100.00000
+7882,2011,"Gysi, Gregor",Platz der Republik 1,11011,Berlin,Linke,12240.00000
+7883,2011,"Händel, Thomas",Berolzheimerstraße 29 ,90768,Fürth,Linke,12560.00000
+7884,2011,"Hänsel, Heike",Am Lustnauer Tor 4,72074,Tübingen,Linke,13800.00000
+7885,2011,"Hein, Rosemarie",Bandwirkerstraße 7b ,39114,Magdeburg,Linke,14213.63000
+7886,2011,"Heyenn, Dora",Leharstraße 17 ,22145,Hamburg,Linke,11090.00000
+7887,2011,"Höger, Inge",Bäckerstraße 27 ,32052,Herford,Linke,20930.00000
+7888,2011,"Höll, Barbara",Denkmalsblick 11 ,04277,Leipzig,Linke,10160.00000
+7889,2011,"Holter, Helmut",Gosewinkler Weg 77 ,19059,Schwerin,Linke,11770.00000
+7890,2011,"Hunger, Angelika",Christianenstraße 6 ,06217,Merseburg,Linke,10471.00000
+7891,2011,"Hunko, Andrej",Krakaustraße 17 ,52064,Aachen,Linke,20000.00000
+7892,2011,"Jansen, Antje",Nebenhofstraße 5a ,23558,Lübeck,Linke,16747.00000
+7893,2011,"Jelpke, Ulla",Kiehlufer 7,12059,Berlin,Linke,19515.00000
+7894,2011,"Jersch, Stephan",Krellweg 13,21033,Hamburg,Linke,14484.00000
+7895,2011,"Kind, Thomas Rüdiger",Dewitzer Straße 15 ,04425,Taucha,Linke,12610.00000
+7896,2011,"Kipping, Katja",Bürgerstraße 26 ,01127,Dresden,Linke,13690.00000
+7897,2011,"Klaubert, Birgit",Steinwitzer Straße 29 ,04600,Altenburg,Linke,12525.00000
+7898,2011,"Klein, Angelika",Sickstraße 10 ,06317,Seegebiet Mansfelder Land,Linke,11795.00000
+7899,2011,"Klute, Jürgen",Brauwasserweg 39 ,44651,Herne,Linke,12240.00000
+7900,2011,"Koch, Harald",Ernst-Thälmann-Straße 13 ,96526,Sangerhausen,Linke,12825.00000
+7901,2011,"Körte, Jan",Stargarder Straße 29 ,10437,Berlin,Linke,14680.50000
+7902,2011,"Krellmann, Jutta",Triftstraße 5 ,31863,Coppenbrügge,Linke,13320.00000
+7903,2011,"Kunert, Katrin",Wahrburger Straße 48,39576,Stendal,Linke,14750.00000
+7904,2011,"Lay, Caren Nicole",Louisenstraße 25 ,01099,Dresden,Linke,13240.00000
+7905,2011,"Leidig, Sabine",Stresemannstraße 20 ,63450,Hanau,Linke,13482.00000
+7906,2011,"Lenkert, Ralph",Kösener Straße 37 ,07743,Jena,Linke,15560.31000
+7907,2011,"Lerch, Herbert",Parkstraße 14 ,08066,Zwickau,Linke,20150.00000
+7908,2011,"Leutert, Michael Gerhard",Barbarossastraße 90 ,09112,Chemnitz,Linke,12240.00000
+7909,2011,"Liebich, Stefan",Platz der Republik 1,11011,Berlin,Linke,13250.00000
+7910,2011,"Lompscher, Katrin",Mollstraße 8 ,10178,Berlin,Linke,10200.00000
+7911,2011,"Lösing, Sabine",Breymannstraße 3 ,37073,Göttingen,Linke,12940.00000
+7912,2011,"Lötzer, Ursula",Gülterberg 7,45239,Essen,Linke,19350.00000
+7913,2011,"Lötzsch, Gesine",Frankfurter Allee 122,10365,Berlin,Linke,13300.00000
+7914,2011,"Lutze, Thomas",Blumenstraße 20 ,66111,Saarbrücken,Linke,14425.00000
+7915,2011,"Maurer, Ulrich",Marienstraße 3a ,70178,Stuttgart,Linke,10330.00000
+7916,2011,"Menzner, Dorothee",WunstorferStraße 30 ,31535,Neustadt am Rübenberge,Linke,12818.00000
+7917,2011,"Michalowsky, Ralf",Grüner Weg 19 ,45966,Gladbeck,Linke,20900.00000
+7918,2011,"Möhring, Cornelia",Am Buchholz 6 ,24321,Giekau,Linke,17188.00000
+7919,2011,"Möller, Kornelia",Nebelhornstraße 7 ,80686,München,Linke,13250.00000
+7920,2011,"Movassat, Niema",Goethestraße 30 ,46047,Oberhausen,Linke,14920.00000
+7921,2011,"Nord, Thomas",Große Scharrnstraße 31 ,15230,Frankfurt (Oder),Linke,13325.00000
+7922,2011,"Paschke, Helga",Heidestraße 44 ,39524,Klietz,Linke,14054.40000
+7923,2011,"Pau, Petra",Fercher Straße 26 ,12629,Berlin,Linke,15888.50000
+7924,2011,"Petermann, Jens",Am Kesselbrunn 25 ,99310,Arnstadt,Linke,13240.00000
+7925,2011,"Pitterle, Richard",Dachsklingeweg 19 ,71067,Sindelfingen,Linke,16240.00000
+7926,2011,"Ploetz, Yvonne",Von-der-Leyen-Straße 14 ,66453,Gersheim,Linke,13300.00000
+7927,2011,"Prante, Ranka",Breite Straße 45 ,25524,Itzehoe,Linke,26383.72000
+7928,2011,"Ramelow, Bodo",Herderstraße 46 ,99096,Erfurt,Linke,14955.15000
+7929,2011,"Sagel, Rüdiger",Schützenstraße 7 ,48143,Münster,Linke,15650.00000
+7930,2011,"Schäfer, Paul",Palanterstraße 55 ,50937,Köln,Linke,22975.00000
+7931,2011,"Schippels, Ulrich",Sternstraße 15 ,24103,Kiel,Linke,24660.52000
+7932,2011,"Schlecht, Michael",Etzelstraße 22 ,70180,Stuttgart,Linke,11720.00000
+7933,2011,"Schmidt, Barbara",Stennerstraße 22 ,33613,Bielefeld,Linke,12242.70000
+7934,2011,"Scholz, Helmut",Regensburger Straße 21 ,15738,Zeuthen,Linke,12450.00000
+7935,2011,"Seifert, Ilja",Albrechtstraße 10c ,10117,Berlin,Linke,13440.00000
+7936,2011,"Senger-Schäfer, Kathrin",Brahmstraße 12 ,67061,Ludwigshafen am Rhein,Linke,17757.16000
+7937,2011,"Sharma, Raju",Geschwister-Scholl-Straße 59 ,24340,Eckernförde,Linke,13665.00000
+7938,2011,"Sitte, Petra",Landsberger Straße 58 ,06112,Halle (Saale),Linke,16440.00000
+7939,2011,"Steinke, Kersten",Fliederweg 49,06567,Bad Frankenhausen,Linke,13200.00000
+7940,2011,"Stüber, Sabine",Choriner Dorfstraße 1a ,16230,Chorin,Linke,13450.00000
+7941,2011,"Süßmair, Alexander",Bürgermeister-Bohl-Straße 26 ,86157,Augsburg,Linke,18690.00000
+7942,2011,"Tackmann, Kirsten",Bantikower Weg 1,16868,Wusterhausen / Dosse,Linke,12595.00000
+7943,2011,"Tempel, Frank",Zehma 38 ,04603,Saara,Linke,11026.61000
+7944,2011,"Thiel, Frank",Friedensburgstraße 1 ,06724,Elsteraue,Linke,12257.00000
+7945,2011,"Troost, Axel",Kreuzstraße 14 ,04103,Leipzig,Linke,13640.00000
+7946,2011,"Ulrich, Alexander",Flurstraße 5 ,66879,Reichenbach-Steegen,Linke,11980.00000
+7947,2011,"van Aken, Jan Paul",Scheplerstraße 78 ,22767,Hamburg,Linke,10720.00000
+7948,2011,"van Ooyen, Willi",Schultheißenweg 44,60489,Frankfurt,Linke,10380.00000
+7949,2011,"Vogler, Kathrin",Rheiner Straße 103 ,48282,Emsdetten,Linke,19795.00000
+7950,2011,"Voß, Johanna",Dorfstraße 20a ,29485,Lemgow,Linke,13990.00000
+7951,2011,"Wagenknecht-Niemeyer, Sahra",Dönhoffstraße 11 ,10318,Berlin,Linke,19375.00000
+7952,2011,"Wawzyniak, Halina",Tempelhofer Ufer 7 ,10963,Berlin,Linke,13982.01000
+7953,2011,"Weinberg, Harald",Wachtelstraße 10 ,90427,Nürnberg,Linke,12810.00000
+7954,2011,"Weisser-Roelle, Ursula",Görgesstraße 3 ,38118,Braunschweig,Linke,11000.00000
+7955,2011,"Werner, Katrin",Deutschherrenstraße 20 ,54290,Trier,Linke,16430.00000
+7956,2011,"Wils, Sabine",Cordesweg 51 ,22415,Hamburg,Linke,12000.00000
+7957,2011,"Wissler, Janine",Adalbertstraße 30 ,60486,Frankfurt,Linke,14100.00000
+7958,2011,"Wolf, Harald",Blumenstraße 44 ,10243,Berlin,Linke,10100.00000
+7959,2011,"Wunderlich, Jörn Heinz Adolf",Straße des Friedens 54 ,09212,Limbach-Oberfrohna,Linke,11540.00000
+7960,2011,"Zimmer, Gabriele",Am Alten Sportplatz 6a,98553,Nahetal-Waldau,Linke,13550.00000
+7961,2011,"Zimmermann, Sabine",Kirchbergstraße 42 ,08412,Werdau,Linke,13524.02000
+7962,2011,"Zimmermann, Wolfgang",Düsselstraße 12 ,40219,Düsseldorf,Linke,16224.00000
+7963,2011,"Adam, Michael",Bahnhofstraße 35,94249,Bodenmais,SPD,10486.00000
+7964,2011,"Ahnen, Doris",Landwehrweg 27,55131,Mainz,SPD,12056.85000
+7965,2011,Allfinanz Deutsche Vermögensberatung AG,Münchener Straße 1,60329,Frankfurt,SPD,25000.00000
+7966,2011,Allianz SE,Königinstraße 28,80802,München,SPD,50001.00000
+7967,2011,"Altpeter, Katrin",Heinrich-Küderli-Straße 1,71332,Waiblingen,SPD,10309.00000
+7968,2011,"Anklam-Trapp, Kathrin",Burgunderstraße 5,67590,Monsheim,SPD,13267.80000
+7969,2011,"Arndt-Brauer, Ingrid",Im Wiesengrund 6,48612,Horstmar,SPD,11640.00000
+7970,2011,"Baaske, Günter",Achtrutenweg 10,14806,Belzig,SPD,11950.00000
+7971,2011,Bayerische Motorenwerke AG,Petuelring 130,80788,München,SPD,109472.88000
+7972,2011,"Beck, Kurt",Feldpfad 1a,76889,Steinfeld,SPD,21824.69000
+7973,2011,"Becken, Dieter",Beim Strohhause 17,20097,Hamburg,SPD,14000.00000
+7974,2011,"Beckers, Peter",Lausitzer Straße 40,10999,Berlin,SPD,10582.00000
+7975,2011,"Beine, Lothar",An den Hüren 125,41066,Mönchengladbach,SPD,17792.00000
+7976,2011,"Berenberg Bank Joh. Berenberg, Gossler & Co. KG",Neuer Jungfernstieg 20,20148,Hamburg,SPD,20000.00000
+7977,2011,"Blauth, Ralf",Leverkusener Straße 20,45772,Marl,SPD,10480.00000
+7978,2011,"Bollmann, Gerd",Am Bollwerk 13c,44651,Herne,SPD,11070.00000
+7979,2011,"Börschel, Martin",Lokomotivstraße 90,50733,Köln,SPD,13908.00000
+7980,2011,"Breuer, Reiner",Nordkanalallee 60,41464,Neuss,SPD,11145.60000
+7981,2011,"Britz, Charlotte",Rathausplatz 1,66111,Saarbrücken,SPD,21836.12000
+7982,2011,"Bülow, Marco",Große Heimstraße 72,44137,Dortmund,SPD,12943.00000
+7983,2011,"Burkert, Martin",Siemensstraße 31,90459,Nürnberg,SPD,11720.00000
+7984,2011,"Conrad, Margit",Wallaustraße 17,55118,Mainz,SPD,11138.80000
+7985,2011,"Crone, Petra",Hinterste Vornberg 3,58566,Kierspe,SPD,12550.00000
+7986,2011,Daimler AG,Mercedesstraße 137,70546,Stuttgart,SPD,150000.00000
+7987,2011,"Danckert, Dr. Peter",Hertastraße 3,14169,Berlin,SPD,10560.00000
+7988,2011,"Dobusch, Gabi",Holländische Reihe 18,22765,Hamburg,SPD,12980.00000
+7989,2011,Deutsche Vermögensberatung AG,Münchener Straße 1,60329,Frankfurt,SPD,25000.00000
+7990,2011,DIC Asset AG,Eschersheimer Landstraße 223,60320,Frankfurt,SPD,11500.00000
+7991,2011,Dr. August Oetker KG,Lutterstraße 14,33617,Bielefeld,SPD,11000.00000
+7992,2011,"Drexler, Wolfgang",Bärenwiesenweg 15,73732,Esslingen,SPD,13975.40000
+7993,2011,"Dreyer, Malu",Im Schammat 27,54294,Trier,SPD,10430.65000
+7994,2011,"Duden, Barbara",Raawisch 29,22043,Hamburg,SPD,10620.00000
+7995,2011,EADS Deutschland GmbH,Willy-Messerschmitt-Straße 1,85521,Ottobrunn,SPD,30000.00000
+7996,2011,"Ebling, Michael",Am Hipperich 76,55120,Mainz,SPD,11488.25000
+7997,2011,"Eckstein, Herbert",Am Alten Bahnhof 1,90530,Wendelstein,SPD,12200.00000
+7998,2011,Erck Rickmers GmbH & Cie. KG,Hohe Bleichen 12,20354,Hamburg,SPD,49000.00000
+7999,2011,ERGO Versicherungsgruppe AG,Victoriaplatz 2,40198,Düsseldorf,SPD,15000.00000
+8000,2011,Evonik Industries AG,Rellinghauser Straße 1-11,45128,Essen,SPD,45000.00000
+8001,2011,"Fortmeier, Georg",Wildhagen 30a,33619,Bielefeld,SPD,11270.00000
+8002,2011,"Frenzel, Dr Michael",Hamsterbau 8,31303,Burgdorf,SPD,12500.00000
+8003,2011,"Fritsch, Gunter",Robert-Koch-Straße 3,14770,Brandenburg,SPD,12310.00000
+8004,2011,"Fuhr, Alexander",Wieslauterstraße 7,66994,Dahn,SPD,16680.40000
+8005,2011,"Fulst-Blei, Stefan",Richard-Lenel-Straße 4,68259,Mannheim,SPD,10899.00000
+8006,2011,Gauselmann AG,Merkur-Allee 1-15,32339,Espelkamp,SPD,12000.00000
+8007,2011,Gegenbauer Holding SA & Co. KG,Paul-Robeson-Straße 37,10439,Berlin,SPD,27000.00000
+8008,2011,"Gerdes, Michael",Hüskensheide 14,46238,Bottrop,SPD,10350.00000
+8009,2011,"Glante, Norbert",Siegfriedstraße 5,14542,Werder,SPD,10633.96000
+8010,2011,"Gleicke, Iris",Gartenstraße 57,98553,Schleusingen,SPD,10226.40000
+8011,2011,"Große-Brömer, Wolfgang",Blockstraße 37,46049,Oberhausen,SPD,11172.67000
+8012,2011,"Hahnen, Ulrich",Kreuzbergstraße 43,47800,Krefeld,SPD,16915.00000
+8013,2011,"Heil, Hubertus",Goethestraße 16,31224,Peine,SPD,11070.00000
+8014,2011,"Hendricks, Dr Barbara",Wiesenstraße 31,47533,Kleve,SPD,10605.00000
+8015,2011,"Hengst, Jürgen",Nikolaus-Groß-Straße 19,47829,Krefeld,SPD,10926.00000
+8016,2011,"Hepke, Fritz-Heiner",Wiesenstraße 8,28832,Achim,SPD,10754.08000
+8017,2011,"Hering, Hendrik",Josef-Büsse-Straße 10,57627,Hachenburg,SPD,14816.49000
+8018,2011,"Hock, Gudrun",Jägerhofstraße 16,40479,Düsseldorf,SPD,15720.36000
+8019,2011,"Högl, Dr. Eva",Tieckstraße 8,10115,Berlin,SPD,13904.00000
+8020,2011,"Holzschuher, Ralf",Rüsternweg 30,14776,Brandenburg,SPD,12960.00000
+8021,2011,"Hübner, Michael",Moltkesiedlung 14,45968,Gladbeck,SPD,11567.81000
+8022,2011,"Hüttner, Michael",Kasparstraße 19,55411,Bingen,SPD,11373.30000
+8023,2011,IBC Solar AG,Am Hochgericht 10,96231,Bad Staffelstein,SPD,20000.00000
+8024,2011,Johann Friedrich Dirks GmbH & Co Distribution und Logistik KG,Petkumer Straße 87,26725,Emden,SPD,15000.00000
+8025,2011,JUWI Holding AG,Energie-Allee 1,55286,Wörrstadt,SPD,15000.00000
+8026,2011,"Kammerevert, Petra",Golzheimer Straße 114,40476,Düsseldorf,SPD,12111.96000
+8027,2011,"Kelber, Ulrich",Clemens-August-Straße 64,53115,Bonn,SPD,10199.55000
+8028,2011,"Kern, Horst-Achim",Kaiserdamm 30,14057,Berlin,SPD,11500.00000
+8029,2011,"Klöckner, Dieter",Am Monte Casino 4a,56179,Vallendar,SPD,16531.40000
+8030,2011,"Koch, Christian",Neue Straße 28,25421,Pinneberg,SPD,10209.10000
+8031,2011,"Kofler, Dr. Bärbel",Lambergstraße 6,83278,Traunstein,SPD,11400.00000
+8032,2011,"Kolbe, Daniela",Kochstraße 49,04275,Leipzig,SPD,10560.00000
+8033,2011,"Körfges, Hans-Willi",Trimpelshütter Straße 26,41238,Mönchengladbach,SPD,18460.84000
+8034,2011,"Kreissl-Dörfler, Wolfgang",Heilmannstraße 13,81479,München,SPD,10025.60000
+8035,2011,"Krings, Hans",Im Boisdorfer Feld 14,50169,Kerpen,SPD,15090.00000
+8036,2011,"Krüger-Leißner, Angelika",Fontanestraße 42,14621,Schönwalde-Glien,SPD,10660.00000
+8037,2011,"Lange, Bernd",Uetzer Straße 23 g,31303,Burgdorf,SPD,12223.96000
+8038,2011,"Lange, Christian",Schillerplatz 3,71522,Backnang,SPD,10828.80000
+8039,2011,"Lischka, Burkhard",Harsdorfer Straße 104,39110,Magdeburg,SPD,10105.20000
+8040,2011,"Lux, Eva",Dhünnstraße 2b,51373,Leverkusen,SPD,10148.00000
+8041,2011,"Maget, Franz",Franz-Fackler-Straße 39,80995,München,SPD,13820.28000
+8042,2011,"Marks, Caren",Geranienweg 16,30900,Wedemark,SPD,10892.00000
+8043,2011,"Mederlet, Frank",Wilhelmshöhe 6,51688,Wipperfürth,SPD,17163.40000
+8044,2011,"Mertes, Joachim",Beller Weg 4a,56290,Buch,SPD,19410.24000
+8045,2011,"Mettler, Herbert",Heckenweg 59,47179,Duisburg,SPD,13317.00000
+8046,2011,Metzler Asset Management GmbH,Große Gallusstraße 18,60311,Frankfurt,SPD,11100.00000
+8047,2011,"Möhrmann, Dieter",Bargmannstraße 3,29640,Schneverdingen,SPD,13688.00000
+8048,2011,"Münch, Martina",Holbeinstraße 15,03042,Cottbus,SPD,11510.00000
+8049,2011,Münchener Rückversicherungsgesellschaft AG,Königinstraße 107,80802,München,SPD,15000.00000
+8050,2011,"Ott, Jochen",Lokomotivstraße 88,50733,Köln,SPD,11917.00000
+8051,2011,"Pecher, Mario",Talstraße 10a,08066,Zwickau,SPD,10480.00000
+8052,2011,Philip Morris GmbH,Am Haag 14,82166,Gräfelfing,SPD,12000.00000
+8053,2011,"Platzeck, Matthias",Turnstraße4,14482,Potsdam,SPD,11310.00000
+8054,2011,"Pörksen, Carsten",Forstmeister-Gräff-Straße 8,55543,Bad Kreuznach,SPD,13249.55000
+8055,2011,"Poß, Joachim",Lindenstraße 84,45894,Gelsenkirchen,SPD,11062.80000
+8056,2011,"Pronold, Florian",Nördlicher Stadtgraben 9,94469,Deggendorf,SPD,12863.00000
+8057,2011,"Puchtler, Frank",Kaltenbachstraße 7,65558,Oberneisen,SPD,17494.67000
+8058,2011,"Puchtier, Hildegard",Kaltenbachstraße 7,65558,Oberneisen,SPD,15000.00000
+8059,2011,"Ramsauer, Günther",Maudacher Straße 418c,67065,Ludwigshafen,SPD,14402.40000
+8060,2011,"Raub, Markus",Füsilierstraße 4,40476,Düsseldorf,SPD,14112.00000
+8061,2011,"Rawert, Mechthild",Rheinstraße 10,12159,Berlin,SPD,13674.00000
+8062,2011,Rheinmetall AG,Rheinmetall-Platz 1,40476,Düsseldorf,SPD,12000.00000
+8063,2011,Richard Ditting GmbH & Co. KG,Wyker Straße 2-18,24768,Rendsburg,SPD,12000.00000
+8064,2011,"Rivoir, Martin",Söflinger Straße 145,89077,Ulm,SPD,14457.78000
+8065,2011,"Römer, Norbert",Ulricherstraße 26,59494,Soest,SPD,14520.00000
+8066,2011,"Sakellariou, Nikolaos",Geschwister-Scholl-Straße 59/1,74523,Schwäbisch Hall,SPD,15838.86000
+8067,2011,"Saxe, Bernd",Große Gröpelgrube 4,23552,Lübeck,SPD,13559.68000
+8068,2011,"Schäfer, Axel",Auf dem Aspei 60,44801,Bochum,SPD,15110.00000
+8069,2011,"Schäfer, Klaus",Marktfeldstraße 128,41063,Mönchengladbach,SPD,12289.00000
+8070,2011,"Scheelen, Bernd",Jakob-Lintzen-Straße 22,47807,Krefeld,SPD,11779.28000
+8071,2011,"Schleicher-Rothmund, Barbara",An den Tongruben 4,76764,Rheinzabern,SPD,19510.15000
+8072,2011,"Schmidt, Silvia",Rammelburger Hauptstraße 1a,06343,Mansfeld,SPD,10140.60000
+8073,2011,"Schmidt, Volker",Dorfstraße 48,66292,Riegelsberg,SPD,11027.90000
+8074,2011,"Schmiedel, Claus",Anna-Neff-Straße 4,71640,Ludwigsburg,SPD,11103.26000
+8075,2011,"Schmitt-Bussinger, Helga",Kanalstraße 6,91126,Schwabach,SPD,13560.00000
+8076,2011,"Schrimpf, Peter",Am Weilenacker 76,59075,Hamm,SPD,15000.00000
+8077,2011,"Schröder, Gerhard",Adolf-Ey-Straße 9,30519,Hannover,SPD,12500.00000
+8078,2011,"Schulz, Swen",Genter Straße 7,13353,Berlin,SPD,11684.00000
+8079,2011,"Schwabe, Frank",Am Markt 14,44575,Castrop-Rauxel,SPD,10236.00000
+8080,2011,"Schwanitz, Rolf",OT Röttis 4 D,08547,Jößnitz,SPD,11170.00000
+8081,2011,"Schwarz, Wolfgang",Karl-Stein-Straße 16,76835,Hainfeld,SPD,10773.58000
+8082,2011,"Sippel, Heiko",Gartenstraße 29,55232,Alzey,SPD,15766.70000
+8083,2011,SIVAG,Konrad-Zuse-Straße 1,18184,Roggentin,SPD,15000.00000
+8084,2011,Sixt GmbH & Co. Autovermietung KG,Zugspitzstraße 1,82049,Pullach,SPD,20000.00000
+8085,2011,sOliver Bernd Freier GmbH & Co KG,sOliver Straße 1,97228,Rottendorf,SPD,19400.00000
+8086,2011,"Sonnenholzner, Kathrin",Dorfstraße 23,82287,Jesenwang,SPD,12591.00000
+8087,2011,"Stachowitz, Diana",Gaggenaystraße 27,80992,München,SPD,10320.00000
+8088,2011,"Steidl, Gerhard",Düstere Straße 4,37073,Göttingen,SPD,13309.28000
+8089,2011,"Steinmeier, Dr. Frank-Walter",Bogenstraße 6,14169,Berlin,SPD,10710.00000
+8090,2011,"Stinka, Andre",Haverlandweg 1,48249,Dülmen,SPD,10120.00000
+8091,2011,"Strässer, Christoph",Tom-Rink-Straße 10,48153,Münster,SPD,10560.00000
+8092,2011,Ströer Deutsche Städte Medien GmbH,Ströer Allee 1,50999,Köln,SPD,18100.00000
+8093,2011,Südwestmetall Verband der Metall- und Elektroindustrie Baden-Württemberg e.V.,Löffelstraße 22-24,70597,Stuttgart,SPD,60000.00000
+8094,2011,"Tiefensee, Wolfgang",Martin-Luther-Ring 7,04109,Leipzig,SPD,10080.00000
+8095,2011,Verband der Bayerischen Metall- und Elektroindustrie e.V.,Max-Joseph-Straße 5,80333,München,SPD,35000.00000
+8096,2011,Verband der Chemischen Industrie e.V.,Mainzer Landstraße 55,60329,Frankfurt,SPD,60000.00000
+8097,2011,Verband der Metall- und Elektroindustrie Nordrhein-Westfalen e.V.,Uerdinger Straße 58-62,40474,Düsseldorf,SPD,20000.00000
+8098,2011,Voith GmbH,St-Pöltener-Straße 43,89522,Heidenheim,SPD,15000.00000
+8099,2011,"Volkmer, Marlies",Radeburger Straße 151,01109,Dresden,SPD,10060.00000
+8100,2011,"Wansch, Thomas",Im Pferch 18,67681,Sembach,SPD,10336.15000
+8101,2011,"Werner, Achim",Bänderweg 6,85049,Ingolstadt,SPD,14666.11000
+8102,2011,"Werner, Wolfgang",Kühler Straße 13,42555,Velbert,SPD,13100.00000
+8103,2011,"Wicklein, Andrea",Feldstraße 65,14558,Nuthetal,SPD,12309.70000
+8104,2011,"Wiefelspütz, Dieter",Stadttorstraße 5,44532,Lünen,SPD,10748.80000
+8105,2011,"Wiese, Heino",Molanusweg 41,30559,Hannover,SPD,10532.00000
+8106,2011,"Wisser, Claus",Holzhecke 15,60528,Frankfurt,SPD,22000.00000
+8107,2011,"Wittemeyer, Günter",Wendenweg 16,13595,Berlin,SPD,15000.00000
+8108,2011,"Woidke, Dietmar",Drosselweg 17,03149,Forst,SPD,13930.00000
+8109,2011,"Wolff, Waltraud",Bahnhofstraße 18,39326,Wolmirstedt,SPD,10110.00000
+8110,2011,"Wörner, Ludwig",Landsberger Straße 147,80339,München,SPD,10620.99000
+8111,2011,"Wowereit, Klaus",Rathausstraße 15,10178,Berlin,SPD,11828.00000
+8112,2011,"Wurth, Ralf",Marktplatz 13,51688,Wipperfürth,SPD,12232.60000
+8113,2011,"Ziegler, Dagmar",Dorfstraße 7a,19309,Lenzen,SPD,19935.00000
+8114,2011,"Zorn, Gerhard",Alte Kölner Straße 31,51491,Overath,SPD,10441.00000
+8115,2011,"Zwingel, Thomas",Flurstraße 45,90513,Zirndorf,SPD,11000.00000

@@ -12,18 +12,21 @@ log = logging.getLogger(__name__)
 PARTIES = {}
 
 def load_spende(loader, spende):
-    log.info('Parteispende: %s an %s', spende['spender_name'], spende['partei_acronym'])
+    log.info('Parteispende: %s an %s', spende['spender_name'], spende['partei_name'])
     
     if spende.get('partei_name') not in PARTIES:
         party = loader.make_entity(['party'])
         party.set('name', spende.get('partei_name'))
-        party.set('acronym', spende.pop('partei_acronym'))
+        if 'partei_acronym' in spende:
+            party.set('acronym', spende.pop('partei_acronym'))
         party.save()
         PARTIES[spende.get('partei_name')] = party
     party = PARTIES[spende.get('partei_name')]
 
-    typ = 'person' if spende.pop('spender_typ') == 'nat' else 'organisation'
-    spender = loader.make_entity(['address', typ])
+    typ = []
+    if 'spender_typ' in spende:
+        typ.append('person' if spende.pop('spender_typ', 'org') == 'nat' else 'organisation')
+    spender = loader.make_entity(['address'] + typ)
     spender.set('name', spende.pop('spender_name'))
     spender.set('street', spende.pop('spender_strasse'))
     spender.set('postcode', spende.pop('spender_plz'))
@@ -39,10 +42,11 @@ def load_spende(loader, spende):
 
 
 def load_spenden():
-    loader = Loader(grano, source_url=SOURCE_URL)
+    for file_name in ['data/spenden_2011.csv', 'data/spenden.csv']:
+        loader = Loader(grano, source_url=SOURCE_URL)
 
-    fh = read_file('data/spenden.csv')
-    reader = DictReader(fh)
-    for row in reader:
-        load_spende(loader, row)
+        fh = read_file(file_name)
+        reader = DictReader(fh)
+        for row in reader:
+            load_spende(loader, row)
 
