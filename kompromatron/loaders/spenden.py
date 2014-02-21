@@ -9,14 +9,18 @@ from kompromatron.loaders.util import read_file
 SOURCE_URL = 'http://www.bundestag.de/service/glossar/R/rechenschaftsberichte.html'
 log = logging.getLogger(__name__)
 
+PARTIES = {}
 
 def load_spende(loader, spende):
     log.info('Parteispende: %s an %s', spende['spender_name'], spende['partei_acronym'])
     
-    party = loader.make_entity(['party'])
-    party.set('name', spende.pop('partei_name'))
-    party.set('acronym', spende.pop('partei_acronym'))
-    party.save()
+    if spende.get('partei_name') not in PARTIES:
+        party = loader.make_entity(['party'])
+        party.set('name', spende.get('partei_name'))
+        party.set('acronym', spende.pop('partei_acronym'))
+        party.save()
+        PARTIES[spende.get('partei_name')] = party
+    party = PARTIES[spende.get('partei_name')]
 
     typ = 'person' if spende.pop('spender_typ') == 'nat' else 'organisation'
     spender = loader.make_entity(['address', typ])
