@@ -6,6 +6,7 @@ from kompromatron.web import app
 from kompromatron.loaders.schema import load_schemata
 from kompromatron.loaders.angaben import load_angaben
 from kompromatron.loaders.spenden import load_spenden
+from kompromatron.loaders.verbaende import load_verbaende
 
 manager = Manager(app)
 manager.add_command("assets", ManageAssets(assets))
@@ -17,6 +18,7 @@ def load():
     load_schemata()
     load_angaben()
     load_spenden()
+    load_verbaende()
 
 
 if __name__ == "__main__":

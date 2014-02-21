@@ -36,7 +36,7 @@
         label: Ort
       - name: foto_url
         hidden: yes
-        label: Foto-Linj
+        label: Foto-Link
 
   - name: public_body
     label: Öffentliche Einrichtung
@@ -57,6 +57,17 @@
       - name: seat_city
         label: Sitz
 
+  - name: lobbyorganisation
+    label: Lobby Organisation
+    obj: entity
+    attributes:
+      - name: interestarea
+        label: Interessengebiet
+      - name: membercount
+        label: Mitgliederzahl
+      - name: organisationcount
+        label: Anzahl Angeschlossener Organisationen
+
   - name: address
     label: address
     hidden: yes
@@ -68,6 +79,20 @@
         label: Straße
       - name: postcode
         label: Postleitzahl
+
+  - name: contact
+    label: contact
+    hidden: yes
+    obj: entity
+    attributes:
+      - name: email
+        label: E-Mail
+      - name: phone
+        label: Telefon
+      - name: fax
+        label: Fax
+      - name: website
+        label: Webseite
 
   - name: party_member
     label: Parteimitglied
@@ -111,3 +136,15 @@
         label: Betrag (EUR)
       - name: year
         label: Jahr
+
+  - name: board_member
+    label: Vorstandsmitglied
+    obj: relation
+    attributes:
+      - name: board_role
+        label: Vorstandsrolle
+
+  - name: org_representative
+    label: Vorstandsmitglied
+    obj: relation
+    attributes: []
