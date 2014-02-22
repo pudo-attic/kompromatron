@@ -1,6 +1,6 @@
 DEBUG = True
 ASSETS_DEBUG = True
 
-GRANO_HOST = 'http://localhost:5000'
-GRANO_APIKEY = '9f0657d55a44469d94145a2100cca492'
-GRANO_PROJECT = 'kompromatron_C'
+GRANO_HOST = os.environ.get('GRANO_HOST', 'http://beta.grano.cc/')
+GRANO_APIKEY = os.environ.get('GRANO_APIKEY')
+GRANO_PROJECT = os.environ.get('GRANO_PROJECT', 'kompromatron')
