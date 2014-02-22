@@ -6,7 +6,12 @@
 
 {% block content %}
     <h2>{{entity.properties.name.value}}</h2>
-
+</div>
+    <div class="graph" style="background-color: #eee; height: 400px"></div>
+    <div class="node-title" style="position:relative; left: 10px; top: -25px">
+        &nbsp;
+    </div>
+<div class="container">
     <table class="table table-striped">
         {% for key, prop in entity.properties.items() if key != 'name' %}
             <tr>
@@ -35,5 +40,23 @@
     </table>
 {% endblock %}
 
-{% block js %}{% endblock %}
+{% block js %}
+
+ {% assets output="gen/graph.js",
+        "vendor/d3/d3.min.js",
+        "js/granoexplorer.js"
+    %}
+      <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
+  <script>
+    var domain = 'http://beta.grano.cc';
+    var project = 'kompromatron';
+    var seed = '{{ entity.id }}';
+    Grano.graph('.graph', domain, project, seed, {
+        depth: 2,
+        titleSelector: '.node-title'
+    });
+  </script>
+{% endblock %}
 
