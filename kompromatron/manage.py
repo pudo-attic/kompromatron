@@ -23,7 +23,7 @@ def load():
 
 @manager.command
 def run(port):
-    app.run(port=int(port))
+    app.run(port=int(port), debug=True)
 
 if __name__ == "__main__":
     manager.run()
