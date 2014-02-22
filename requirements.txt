@@ -1,1 +1,7 @@
 cssmin
+Flask-Script==0.5.3
+grano-client>=0.2
+Flask==0.10.1
+Flask-Assets==0.8
+PyYAML==3.10
+unicodecsv==0.9.4
