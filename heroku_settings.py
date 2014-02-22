@@ -1,6 +1,6 @@
 import os
 
-DEBUG = False
+DEBUG = True
 ASSETS_DEBUG = True
 
 # GRANO_HOST = 'http://localhost:5000'
