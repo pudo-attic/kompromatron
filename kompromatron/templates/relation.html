@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{relation.schema.label}}
+{% endblock %}
+
+{% block content %}
+    <h2>{{relation.schema.label}}</h2>
+
+    <table class="table table-striped">
+        <tr>
+            <th>Von</th>
+            <td><a href="/entities/{{relation.source.id}}">{{relation.source.properties.get('name').get('value')}}</a></td>
+        </tr>
+        <tr>
+            <th>An</th>
+            <td><a href="/entities/{{relation.target.id}}">{{relation.target.properties.get('name').get('value')}}</a></td>
+        </tr>
+        {% for key, prop in relation.properties.items() if not prop.hidden %}
+            <tr>
+                <th>{{get_attribute(relation.schema, key).label}}</th>
+                <td>{{prop.value}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
+
+{% block js %}{% endblock %}
+

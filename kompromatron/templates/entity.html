@@ -7,7 +7,32 @@
 {% block content %}
     <h2>{{entity.properties.name.value}}</h2>
 
-    DIES IST DAS HAUS DES NIKOLAUS.
+    <table class="table table-striped">
+        {% for key, prop in entity.properties.items() if not prop.hidden %}
+            <tr>
+                <th>{{get_attribute(schemata, key).label}}</th>
+                <td>{{prop.value}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h4>Beziehungen</h4>
+    <table class="table table-striped">
+        {% for relation in entity.outbound %}
+            <tr>
+                <td>{{get_schema(relation.schema.name).label}}</td>
+                <td><a href="/entities/{{relation.target.id}}">{{relation.target.properties.get('name').get('value')}}</a></td>
+                <td><a href="/relations/{{relation.id}}">Mehr&nbsp;&raquo;</a></td>
+            </tr>
+        {% endfor %}
+        {% for relation in entity.inbound %}
+            <tr>
+                <td>{{get_schema(relation.schema.name).label}}</td>
+                <td><a href="/entities/{{relation.source.id}}">{{relation.source.properties.get('name').get('value')}}</a></td>
+                <td><a href="/relations/{{relation.id}}">Mehr&nbsp;&raquo;</a></td>
+            </tr>
+        {% endfor %}
+    </table>
 {% endblock %}
 
 {% block js %}{% endblock %}

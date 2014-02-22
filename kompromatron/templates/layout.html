@@ -25,9 +25,13 @@
 <body>
 
   <div class="container">
-    <h1>KOMPROMATRON</h1>
+    <h1 class="main-title">КОМПРОМАТРОН</h1>
     {% block content %}{% endblock %}
   </div>
+
+  <footer class="container">
+    <p>Made by ....</p>
+  </footer>
 
   {% assets filters="uglifyjs", output="gen/app.js",
         "vendor/jquery/jquery.js",
