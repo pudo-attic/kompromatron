@@ -21,5 +21,9 @@ def load():
     load_verbaende()
 
 
+@manager.command
+def run(port):
+    app.run(port=int(port))
+
 if __name__ == "__main__":
     manager.run()

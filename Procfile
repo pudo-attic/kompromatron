@@ -1,1 +1,1 @@
-web: python kompromatron/manage.py runserver -p $PORT
+web: python kompromatron/manage.py run $PORT
