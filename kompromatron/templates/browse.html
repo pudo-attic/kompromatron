@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Browse
+{% endblock %}
+
+{% block content %}
+    <ul>
+        {% for result in results.results %}
+            <li><a href="/entities/{{result.id}}">{{result.properties.name.value}}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+
+{% block js %}{% endblock %}
+

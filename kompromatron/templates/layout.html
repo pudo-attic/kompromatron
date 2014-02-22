@@ -5,17 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{% block title %}(Untitled){% endblock %} - OpenInterests</title>
-  <meta name="description" content="{% block description %}A catalogue of companies, institutions, people and public bodies which have political or financial interests in the European Union. Explore the EU lobby register and financial expenditure.{% endblock %}">
-  <meta name="keywords" content="{% block keywords %}lobbying, influence, europe, european union, eu, politics, network, power, 
-  corruption, conflict of interests, revolving door{% endblock %}">
-  <meta name="author" content="OpenInterests" />
+  <title>{% block title %}(Untitled){% endblock %} - kompromatron</title>
+  <meta name="description" content="{% block description %}Das kompromatron verbindet Informationen über die Nebeneinkünfte von Abgeordneten, Parteispenden und das Verbänderegister des Bundestags.{% endblock %}">
+  <meta name="keywords" content="{% block keywords %}lobbying, verbände, netzwerk, macht, berlin{% endblock %}">
+  <meta name="author" content="kompromatron" />
 
-  <meta name="og:site_name" content="OpenInterests">
+  <meta name="og:site_name" content="kompromatron">
 
-  <link href='http://fonts.googleapis.com/css?family=Antic+Slab|Convergence' rel='stylesheet' type='text/css'>
-
-  {% assets filters="less,cssmin,cssrewrite", output="style.%(version)s.css",
+  {% assets filters="less,cssmin,cssrewrite", output="gen/style.css",
       "vendor/bootstrap/less/bootstrap.less",
       "style/style.less"
   %}
@@ -26,56 +23,16 @@
   <link rel="shortcut icon" href="http://assets.pudo.org/img/favicon.ico">
 </head>
 <body>
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{url_for('base.index')}}">Open<span class="logo-highlight">Interests.eu</span></a>
-        </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-          <form class="navbar-form navbar-left" role="search" action="{{url_for('entities.search')}}">
-            <div class="form-group hiden-xs hidden-sm">
-              <input type="text" class="form-control" id="top-search-bar" name="q"
-                placeholder="Search EU lobbyists, NGOs, companies and public bodies...">
-            </div>
-            <!--button type="submit" class="btn btn-default">Submit</button-->
-          </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/entities">Browse</a></li>
-            <li><a href="/bodies">Institutions</a></li>
-            <li><a href="/about">About</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+  <div class="container">
+    <h1>KOMPROMATRON</h1>
+    {% block content %}{% endblock %}
+  </div>
 
-    <div class="container">
-        {% block content %}{% endblock %}
-
-        <footer>
-            <ul>
-              <li><a href="/about">about</a> this page</li>
-              <li>made by <a href="http://pudo.org">pudo</a></li>
-              <li>built with <a href="http://grano.pudo.org/">grano</a></li>
-              <li><i class="fa fa-github"></i> <a href="https://github.com/pudo/openinterests.eu">source code</a></li>
-            </ul>
-        </footer>
-    </div>
-
-
-  {% assets filters="uglifyjs", output="app.%(version)s.js",
-        "entities/vendor/jquery/jquery.js",
-        "entities/vendor/bootstrap/js/collapse.js",
-        "entities/vendor/bootstrap/js/dropdown.js",
-        "entities/js/util.js"
+  {% assets filters="uglifyjs", output="gen/app.js",
+        "vendor/jquery/jquery.js",
+        "vendor/bootstrap/js/collapse.js",
+        "vendor/bootstrap/js/dropdown.js"
     %}
       <script type="text/javascript" src="{{ ASSET_URL }}"></script>
   {% endassets %}
@@ -83,16 +40,5 @@
   {% block js %}
 
   {% endblock %}
-
-  {% if not config.DEBUG %}
-    <script>
-      // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      // ga('create', 'UA-34039573-8', 'openinterests.eu');
-      // ga('send', 'pageview');
-    </script>
-  {% endif %}
 </body>
 </html>
