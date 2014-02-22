@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Who wants what in the European Union
+{% endblock %}
+
+{% block content %}
+
+    <p class="claim">
+        <!--
+        See which companies, people and organisations have financial or political
+        interests in the European institutions.
+        -->
+        Who has financial or political interests in the European institutions?
+    </p>
+
+    <p>
+        <img src="http://assets.pudo.org/img/ep_stras.png" class="img-responsive img-homepage">
+        <span class="credit">Photo: <a href="https://secure.flickr.com/photos/european_parliament/8260880473/">European Parliament</a></span>
+    </p>
+    
+    <!--hr-->
+
+    <form action="{{url_for('entities.search')}}" method="GET" class="form-horizontal" role="form">
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input type="text" class="form-control input-lg search-box" name="q"
+                    placeholder="Search for people, companies or public bodies...">
+            </div>
+        </div>
+    </form>
+
+    <ul class="teasers">
+        {% for schema, count in schemata_facet %}
+            <li><a href="/entities?filter-schemata.name={{schema.name}}">{{count}} {{schema.label}}s</a>
+            {% if not loop.last %}
+                &middot;
+            {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <p>
+        OpenInterests catalogues actors involved in lobbying, expert groups, public
+        expenditure and procurement so you can explore the interactions between 
+        them. <a href="/about">Read more...</a>
+    </p>
+{% endblock %}
+
+{% block js %}{% endblock %}
+
