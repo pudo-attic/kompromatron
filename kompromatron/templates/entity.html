@@ -8,7 +8,7 @@
     <h2>{{entity.properties.name.value}}</h2>
 
     <table class="table table-striped">
-        {% for key, prop in entity.properties.items() if not prop.hidden %}
+        {% for key, prop in entity.properties.items() if key != 'name' %}
             <tr>
                 <th>{{get_attribute(schemata, key).label}}</th>
                 <td>{{prop.value}}</td>

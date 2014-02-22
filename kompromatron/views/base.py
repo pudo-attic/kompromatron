@@ -37,7 +37,8 @@ def index():
 def entity(id):
     entity = grano.entities.by_id(id)
     schemata = entity.schemata
-    return render_template('entity.html', entity=entity, schemata=schemata)
+    return render_template('entity.html', entity=entity,
+        schemata=schemata, query=entity.properties.get('name').get('value'))
 
 
 @base.route('/relations/<id>')
@@ -56,4 +57,5 @@ def browse():
     }
     s, results = grano.client.get('/entities', params=params)
     print results.get('results')[0]
-    return render_template('browse.html', results=results)
+    return render_template('browse.html', results=results,
+        query=params.get('q'))

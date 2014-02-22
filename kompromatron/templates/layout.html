@@ -12,6 +12,8 @@
 
   <meta name="og:site_name" content="kompromatron">
 
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,800' rel='stylesheet' type='text/css'>
+
   {% assets filters="less,cssmin,cssrewrite", output="gen/style.css",
       "vendor/bootstrap/less/bootstrap.less",
       "style/style.less"
@@ -25,7 +27,18 @@
 <body>
 
   <div class="container">
-    <h1 class="main-title">КОМПРОМАТРОН</h1>
+    <h1 class="main-title"><a href="/">КОМПРОМАТРОН</a></h1>
+
+    <form action="/browse" method="GET" class="form-horizontal" role="form">
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input type="text" class="form-control input-lg search-box" name="q"
+                    placeholder="Zeige mir Kompromat zu..." value="{{query}}">
+            </div>
+        </div>
+    </form>
+
+
     {% block content %}{% endblock %}
   </div>
 

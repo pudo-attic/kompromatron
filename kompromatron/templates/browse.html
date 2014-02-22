@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-    <ul>
+    <ul class="search-results">
         {% for result in results.results %}
             <li><a href="/entities/{{result.id}}">{{result.properties.name.value}}</a></li>
         {% endfor %}
