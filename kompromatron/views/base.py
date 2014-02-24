@@ -29,11 +29,12 @@ def inject():
 
 
 @base.route('/')
+@base.route('/index.html')
 def index():
     return render_template('index.html')
 
 
-@base.route('/entities/<id>')
+@base.route('/entities/<id>.html')
 def entity(id):
     entity = grano.entities.by_id(id)
     schemata = entity.schemata
@@ -41,14 +42,14 @@ def entity(id):
         schemata=schemata, query=entity.properties.get('name').get('value'))
 
 
-@base.route('/relations/<id>')
+@base.route('/relations/<id>.html')
 def relation(id):
     relation = grano.relations.by_id(id)
     return render_template('relation.html', relation=relation)
 
 
 
-@base.route('/browse')
+@base.route('/browse.html')
 def browse():
     params = {
         'q': request.args.get('q', ''),

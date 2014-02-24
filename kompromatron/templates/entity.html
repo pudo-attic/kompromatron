@@ -26,15 +26,15 @@
         {% for relation in entity.outbound %}
             <tr>
                 <td>{{get_schema(relation.schema.name).label}}</td>
-                <td><a href="/entities/{{relation.target.id}}">{{relation.target.properties.get('name').get('value')}}</a></td>
-                <td><a href="/relations/{{relation.id}}">Mehr&nbsp;&raquo;</a></td>
+                <td><a href="/entities/{{relation.target.id}}.html">{{relation.target.properties.get('name').get('value')}}</a></td>
+                <td><a href="/relations/{{relation.id}}.html">Mehr&nbsp;&raquo;</a></td>
             </tr>
         {% endfor %}
         {% for relation in entity.inbound %}
             <tr>
                 <td>{{get_schema(relation.schema.name).label}}</td>
-                <td><a href="/entities/{{relation.source.id}}">{{relation.source.properties.get('name').get('value')}}</a></td>
-                <td><a href="/relations/{{relation.id}}">Mehr&nbsp;&raquo;</a></td>
+                <td><a href="/entities/{{relation.source.id}}.html">{{relation.source.properties.get('name').get('value')}}</a></td>
+                <td><a href="/relations/{{relation.id}}.html">Mehr&nbsp;&raquo;</a></td>
             </tr>
         {% endfor %}
     </table>
