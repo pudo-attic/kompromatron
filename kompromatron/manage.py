@@ -3,6 +3,7 @@ from flask.ext.assets import ManageAssets
 
 from kompromatron.core import assets
 from kompromatron.web import app
+from kompromatron.generators import freezer
 from kompromatron.loaders.schema import load_schemata
 from kompromatron.loaders.angaben import load_angaben
 from kompromatron.loaders.spenden import load_spenden
@@ -19,6 +20,14 @@ def load():
     load_angaben()
     load_spenden()
     load_verbaende()
+
+
+@manager.command
+def freeze():
+    """ Freeze the entire site to static HTML. """
+    app.config['DEBUG'] = False
+    app.config['ASSETS_DEBUG'] = False
+    freezer.freeze()
 
 
 @manager.command

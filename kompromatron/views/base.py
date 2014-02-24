@@ -4,7 +4,7 @@ from flask import Blueprint, render_template, request
 from kompromatron.core import grano, app
 
 
-base = Blueprint('base', __name__, static_folder='../static', template_folder='../templates')
+base = app #Blueprint('base', __name__, static_folder='../static', template_folder='../templates')
 SCHEMA_CACHE = {}
 
 
@@ -39,7 +39,7 @@ def entity(id):
     entity = grano.entities.by_id(id)
     schemata = entity.schemata
     return render_template('entity.html', entity=entity,
-        schemata=schemata, query=entity.properties.get('name').get('value'))
+        schemata=schemata, query=entity.properties.get('name', {}).get('value'))
 
 
 @base.route('/relations/<id>.html')
@@ -57,6 +57,6 @@ def browse():
         'project': grano.slug
     }
     s, results = grano.client.get('/entities', params=params)
-    print results.get('results')[0]
+    #print results.get('results')[0]
     return render_template('browse.html', results=results,
         query=params.get('q'))

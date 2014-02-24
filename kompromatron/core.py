@@ -2,6 +2,7 @@ import logging
 
 from flask import Flask, url_for as _url_for
 from flask.ext.assets import Environment
+from flask_frozen import Freezer
 from granoclient import Grano, NotFound
 
 from kompromatron import default_settings
@@ -17,6 +18,7 @@ app.config.from_object(default_settings)
 app.config.from_envvar('KOMPROMATRON_SETTINGS', silent=True)
 
 assets = Environment(app)
+freezer = Freezer(app)
 
 client = Grano(api_host=app.config.get('GRANO_HOST'),
                api_key=app.config.get('GRANO_APIKEY'))
