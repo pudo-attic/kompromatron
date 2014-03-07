@@ -27,7 +27,11 @@
 <body>
 
   <div class="container">
-    <h1 class="main-title"><a href="/index.html">КОМПРОМАТРОН</a></h1>
+    <h1 class="main-title">
+      <a href="/index.html">
+        КОМПРОМАТРОН
+      </a>
+    </h1>
 
     <form action="/browse.html" method="GET" class="form-horizontal" role="form">
         <div class="form-group">
@@ -38,12 +42,14 @@
         </div>
     </form>
 
-
     {% block content %}{% endblock %}
   </div>
 
   <footer class="container">
-    <p>Made by ....</p>
+    <p>
+      Geschaffen von Friedrich Lindenberg, Michael Hörz, Saul Lozano, Stefan Wehrmeyer beim Open Data Day Berlin 2014
+    </p>
+    <p>Powered by <a href="http://grano.pudo.org/">grano</a></p>
   </footer>
 
   {% assets filters="uglifyjs", output="gen/app.js",
