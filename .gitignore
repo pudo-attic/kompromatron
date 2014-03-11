@@ -39,5 +39,4 @@ nosetests.xml
 *.DS_Store
 
 kompromatron/static/vendor/*
-kompromatron/static/gen/*
 kompromatron/static/.webassets-cache/*
