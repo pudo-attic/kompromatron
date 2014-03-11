@@ -32,7 +32,7 @@ def freeze():
 
 @manager.command
 def run(port):
-    app.run(port=int(port), debug=True)
+    app.run(host='0.0.0.0', port=int(port), debug=app.debug)
 
 if __name__ == "__main__":
     manager.run()
