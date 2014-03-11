@@ -151,7 +151,7 @@ Grano.graph = function(selector, domain, project, seed, options){
 
   // Toggle children on click.
   function click(d) {
-    document.location.href = '/entities/' + d.id;
+    document.location.href = '/entities/' + d.id + '.html';
   }
 
 };
