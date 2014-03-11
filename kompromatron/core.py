@@ -1,6 +1,6 @@
 import logging
 
-from flask import Flask, url_for as _url_for
+from flask import Flask
 from flask.ext.assets import Environment
 from flask_frozen import Freezer
 from granoclient import Grano, NotFound
