@@ -6,5 +6,5 @@ ASSETS_DEBUG = True
 # GRANO_PROJECT = 'kompromatron_C'
 
 GRANO_HOST = 'http://beta.grano.cc/'
-GRANO_APIKEY = 'c9bea4de0ce60a95d'
+GRANO_APIKEY = 'GHtElTYOQUPKPik'
 GRANO_PROJECT = 'kompromatron'

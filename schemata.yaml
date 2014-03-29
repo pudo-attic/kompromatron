@@ -100,8 +100,10 @@
     attributes:
       - name: date_start
         label: Seit
+        datatype: datetime
       - name: date_end
         label: Bis
+        datatype: datetime
 
   - name: bt_mandate
     label: Bundestagsmandat
@@ -109,10 +111,12 @@
     attributes:
       - name: mdb_id
         label: MdB-Nummer
+        datatype: integer
       - name: faction
         label: Fraktion
       - name: constituency
         label: Wahlkreis
+        datatype: integer
 
   - name: side_income
     label: Nebenverdienst
@@ -132,10 +136,13 @@
       - name: internal_id
         label: Internal ID
         hidden: yes
+        datatype: integer
       - name: amount
         label: Betrag (EUR)
+        datatype: float
       - name: year
         label: Jahr
+        datatype: datetime
 
   - name: board_member
     label: Vorstandsmitglied
