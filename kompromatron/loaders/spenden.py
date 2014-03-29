@@ -36,7 +36,7 @@ def load_spende(loader, spende):
     s = loader.make_relation('party_donation', spender, party)
     s.unique('internal_id')
     s.set('internal_id', spende.pop('id'))
-    s.set('year', spende.pop('jahr'))
+    s.set('year', spende.pop('jahr') + '-01-01')
     s.set('amount', spende.pop('betrag_eur'))
     s.save()
 
