@@ -50,7 +50,12 @@ def load_angabe(loader, angabe, bt):
     man = loader.make_relation('bt_mandate', mdb, bt)
     man.set('mdb_id', angabe.pop('mdb_id'))
     man.set('faction', angabe.pop('fraktion'))
-    man.set('constituency', angabe.pop('wk_nummer'))
+    wk = angabe.pop('wk_nummer')
+    try:
+        wk = int(wk)
+    except:
+        wk = None
+    man.set('constituency', wk)
     man.save()
 
     if angabe.get('client_name') and len(angabe.get('client_name').strip()):
