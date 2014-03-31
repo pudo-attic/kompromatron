@@ -14,10 +14,12 @@
 <div class="container">
     <table class="table table-striped">
         {% for key, prop in entity.properties.items() if key != 'name' %}
-            <tr>
-                <th>{{get_attribute(schemata, key).label}}</th>
-                <td>{{prop.value}}</td>
-            </tr>
+            {% if prop.value %}
+                <tr>
+                    <th>{{get_attribute(schemata, key).label}}</th>
+                    <td>{{prop.value|safe}}</td>
+                </tr>
+            {% endif %}
         {% endfor %}
     </table>
 
