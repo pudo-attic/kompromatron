@@ -1,10 +1,10 @@
-/* jshint strict: true, quotmark: false, es3: true */
+/* jshint strict: true, es3: true */
 /* global $: false, d3: false, Grano: false */
 
 window.Grano = window.Grano || {};
 
 Grano.graph = function(selector, domain, project, seed, options){
-  "use strict";
+  'use strict';
   var schemas = {};
   var depth = options.depth || 1;
 
@@ -19,17 +19,20 @@ Grano.graph = function(selector, domain, project, seed, options){
   var linkList = [];
 
   var force = d3.layout.force()
-    .charge(function(d) { return d.isRoot ? -80 : -60; })
-    .linkDistance(function(d) { return d.isRoot ? 50 : 30; })
+    .size([0, 0])
+    .charge(-50)
+    .friction(0.5)
+    // .chargeDistance(50)
+    .linkDistance(function(d){
+      return 10 + Math.sqrt(d.source.weight + d.target.weight) * 5;
+    })
     .size([w, h]);
 
-  var vis = d3.select(selector).append("svg:svg")
-      .attr("width", w)
-      .attr("height", h);
+  var vis = d3.select(selector).append('svg:svg')
+      .attr('width', w)
+      .attr('height', h);
 
-  var getEntity = function(entity){
-    return $.getJSON(domain + '/api/1/entities/' + entity);
-  };
+
   var getGraph = function(entity, depth){
     depth = depth || 2;
     return $.getJSON(domain + '/api/1/entities/' + entity + '/graph?depth=' + depth);
@@ -67,8 +70,7 @@ Grano.graph = function(selector, domain, project, seed, options){
       nodes[graph.root].x = w / 2;
       nodes[graph.root].y = h / 2;
 
-      var nodeid;
-      for (nodeid in nodes) {
+      for (var nodeid in nodes) {
         nodes[nodeid].id = nodeid;
         nodeList.push(nodes[nodeid]);
         nodes[nodeid].index = nodeList.length - 1;
@@ -80,8 +82,8 @@ Grano.graph = function(selector, domain, project, seed, options){
           schema: l.schema
         });
       };
-      for (nodeid in links) {
-        links[nodeid].forEach(addLink);
+      for (var linknodeid in links) {
+        links[linknodeid].forEach(addLink);
       }
       update();
     });
@@ -95,56 +97,60 @@ Grano.graph = function(selector, domain, project, seed, options){
         .start();
 
     // Update the links…
-    link = vis.selectAll("line.link")
-        .data(linkList);
+    link = vis.selectAll('line.link')
+        .data(linkList.filter(function(d){
+        return d.source.weight > 1 && d.target.weight > 1;
+      }));
 
     // Enter any new links.
-    link.enter().insert("svg:line", ".node")
-        .attr("class", "link")
-        .style("stroke", function(d) { return color(d.schema); });
+    link.enter().insert('svg:line', '.node')
+        .attr('class', 'link')
+        .style('stroke', function(d) { return color(d.schema); });
 
 
     // Exit any old links.
     link.exit().remove();
 
     // Update the nodes…
-    node = vis.selectAll("circle.node")
-      .data(nodeList);
+    node = vis.selectAll('circle.node')
+      .data(nodeList.filter(function(d){
+        return d.weight > 1;
+      }));
 
-    node.enter().append("svg:circle")
-        .classed("node", true)
-        .classed("root", function(d){ return !!d.isRoot; })
-        .classed("related", function(d){ return !d.isRoot; })
-        // .classed("entity", function(d){ return !!d.isEntity; })
-        // .attr("cx", function(d) { return d.x; })
-        // .attr("cy", function(d) { return d.y; })
-        .attr("r", function(d){ return d.isRoot ? 15 : 5; })
+    node.
+      enter().append('svg:circle')
+        .classed('node', true)
+        .classed('root', function(d){ return !!d.isRoot; })
+        .classed('related', function(d){ return !d.isRoot; })
+        // .classed('entity', function(d){ return !!d.isEntity; })
+        // .attr('cx', function(d) { return d.x; })
+        // .attr('cy', function(d) { return d.y; })
+        .attr('r', function(d){
+          return d.isRoot ? 15 : Math.min(20, Math.sqrt(d.weight * 4));
+        })
         .attr('title', function(d){ return d.name; })
-        // .style("fill", function(d){ return color(d.schema); })
-        .on("click", click)
-        .on("mouseover", function(d){
+        // .style('fill', function(d){ return color(d.schema); })
+        .on('click', click)
+        .on('mouseover', function(d){
           $(options.titleSelector).text(d.name);
         })
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; })
+        .attr('cx', function(d) { return d.x; })
+        .attr('cy', function(d) { return d.y; })
         .call(force.drag);
 
     // Exit any old nodes.
     node.exit().remove();
   }
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+  force.on('tick', function() {
+    link.attr('x1', function(d) { return d.source.x; })
+        .attr('y1', function(d) { return d.source.y; })
+        .attr('x2', function(d) { return d.target.x; })
+        .attr('y2', function(d) { return d.target.y; });
 
-    node.filter('.related').attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
+    node.filter('.related').attr('cx', function(d) { return d.x; })
+        .attr('cy', function(d) { return d.y; });
   });
 
-  // Color leaf nodes orange, and packages white or blue.
-
-  // Toggle children on click.
   function click(d) {
     document.location.href = '/entities/' + d.id + '.html';
   }
