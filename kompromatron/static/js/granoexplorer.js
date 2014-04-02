@@ -6,6 +6,7 @@ window.Grano = window.Grano || {};
 Grano.graph = function(selector, domain, project, seed, options){
   'use strict';
   var schemas = {};
+  var MIN_WEIGHT = 1;
   var depth = options.depth || 1;
 
   var color = d3.scale.category20b();
@@ -13,24 +14,51 @@ Grano.graph = function(selector, domain, project, seed, options){
 
   var w = $(selector).width(),
       h = $(selector).height(),
+      r = 6,
       node,
       link;
   var nodeList = [];
   var linkList = [];
 
   var force = d3.layout.force()
-    .size([0, 0])
-    .charge(-50)
-    .friction(0.5)
-    // .chargeDistance(50)
-    .linkDistance(function(d){
-      return 10 + Math.sqrt(d.source.weight + d.target.weight) * 5;
-    })
+    .charge(-60)
+    // .friction(0.5)
+    // .chargeDistance(function(d){
+    //   return 10 + Math.sqrt(d.source.weight + d.target.weight) * 2;
+    // })
+    // .size([w / 2, h / 2]);
+    // .charge(function(d) { return d.weight ? -d.weight / 100 : -30; })
+    // .linkDistance(function(d) { return d.target.weight > 2 ? 160 : 50; })
+    .linkDistance(30)
     .size([w, h]);
 
   var vis = d3.select(selector).append('svg:svg')
       .attr('width', w)
       .attr('height', h);
+
+
+  var node_filter_normal = function(d){
+    return d.weight > MIN_WEIGHT || !!d.isRoot || !!d.isRelated;
+  };
+
+  var node_filter_large = function(d){
+    return d.weight > MIN_WEIGHT * 100 && (!!d.isRoot || !!d.isRelated);
+  };
+
+  var link_filter_normal = function(d){
+    return ((d.target.weight > MIN_WEIGHT && d.source.weight > MIN_WEIGHT) ||
+       (!!d.target.isRoot || !!d.source.isRoot)
+    );
+  };
+
+  var link_filter_large = function(d){
+    return ((d.target.weight > MIN_WEIGHT * 100 || d.source.weight > MIN_WEIGHT * 100) &&
+       (!!d.target.isRoot || !!d.source.isRoot)
+    );
+  };
+
+  var node_filter = node_filter_normal;
+  var link_filter = link_filter_normal;
 
 
   var getGraph = function(entity, depth){
@@ -61,8 +89,15 @@ Grano.graph = function(selector, domain, project, seed, options){
         }
         links[r.source].push({
           target: r.target,
-          schema: r['schema.name']
+          schema: r['schema.name'],
+          isRelated: (r.source === graph.root || r.target === graph.root)
         });
+        if (r.source === graph.root) {
+          nodes[r.target].isRelated = true;
+        }
+        if (r.target === graph.root) {
+          nodes[r.source].isRelated = true;
+        }
       });
 
       nodes[graph.root].fixed = true;
@@ -75,16 +110,25 @@ Grano.graph = function(selector, domain, project, seed, options){
         nodeList.push(nodes[nodeid]);
         nodes[nodeid].index = nodeList.length - 1;
       }
-      var addLink = function(l){
-        linkList.push({
-          source: nodes[nodeid].index,
-          target: nodes[l.target].index,
-          schema: l.schema
-        });
+      var addLink = function(nodeid) {
+        return function(l){
+          linkList.push({
+            source: nodes[nodeid].index,
+            target: nodes[l.target].index,
+            schema: l.schema,
+            isRelated: l.isRelated
+          });
+        };
       };
       for (var linknodeid in links) {
-        links[linknodeid].forEach(addLink);
+        links[linknodeid].forEach(addLink(linknodeid));
       }
+
+      if (nodeList.length > 1500 && linkList.length > 1500) {
+        node_filter = node_filter_large;
+        link_filter = link_filter_large;
+      }
+
       update();
     });
   });
@@ -92,19 +136,21 @@ Grano.graph = function(selector, domain, project, seed, options){
   function update() {
     // Restart the force layout.
     force
+        .gravity(0)
         .nodes(nodeList)
         .links(linkList)
         .start();
 
     // Update the links…
     link = vis.selectAll('line.link')
-        .data(linkList.filter(function(d){
-        return d.source.weight > 1 && d.target.weight > 1;
-      }));
+        .data(linkList
+           .filter(link_filter_normal)
+        );
 
     // Enter any new links.
     link.enter().insert('svg:line', '.node')
         .attr('class', 'link')
+        .attr('title', function(d){ return d.source.name + ' - ' + d.target.name; })
         .style('stroke', function(d) { return color(d.schema); });
 
 
@@ -113,9 +159,12 @@ Grano.graph = function(selector, domain, project, seed, options){
 
     // Update the nodes…
     node = vis.selectAll('circle.node')
-      .data(nodeList.filter(function(d){
-        return d.weight > 1;
-      }));
+      .data(nodeList
+         .filter(node_filter)
+      );
+
+    var drag = force.drag()
+      .on('dragstart', dragstart);
 
     node.
       enter().append('svg:circle')
@@ -126,7 +175,7 @@ Grano.graph = function(selector, domain, project, seed, options){
         // .attr('cx', function(d) { return d.x; })
         // .attr('cy', function(d) { return d.y; })
         .attr('r', function(d){
-          return d.isRoot ? 15 : Math.min(20, Math.sqrt(d.weight * 4));
+          return d.isRoot ? 15 : Math.max(5, Math.min(20, Math.sqrt(d.weight * 4)));
         })
         .attr('title', function(d){ return d.name; })
         // .style('fill', function(d){ return color(d.schema); })
@@ -136,7 +185,8 @@ Grano.graph = function(selector, domain, project, seed, options){
         })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
-        .call(force.drag);
+        .on('dblclick', dblclick)
+        .call(drag);
 
     // Exit any old nodes.
     node.exit().remove();
@@ -147,12 +197,28 @@ Grano.graph = function(selector, domain, project, seed, options){
         .attr('x2', function(d) { return d.target.x; })
         .attr('y2', function(d) { return d.target.y; });
 
-    node.filter('.related').attr('cx', function(d) { return d.x; })
-        .attr('cy', function(d) { return d.y; });
+    node.attr('cx', function(d) {
+      d.x = Math.max(r, Math.min(w - r, d.x));
+      return d.x;
+    })
+    .attr('cy', function(d) {
+      d.y = Math.max(r, Math.min(h - r, d.y));
+      return d.y;
+    });
   });
 
   function click(d) {
-    document.location.href = '/entities/' + d.id + '.html';
+    if (d3.event.shiftKey) {
+      document.location.href = '/entities/' + d.id + '.html';
+    }
+  }
+
+  function dblclick(d) {
+    d3.select(this).classed("fixed", d.fixed = false);
+  }
+
+  function dragstart(d) {
+    d3.select(this).classed("fixed", d.fixed = true);
   }
 
 };

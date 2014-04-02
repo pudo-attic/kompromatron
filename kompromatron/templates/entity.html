@@ -6,9 +6,12 @@
 
 {% block content %}
     <h2>{{entity.properties.get('name', {}).get('value', {})}}</h2>
+    <div class="pull-right">
+        <small>Gefilterter Beziehungsgraph:</small>
+    </div>
 </div>
-    <div class="graph" style="background-color: #eee; height: 400px"></div>
-    <div class="node-title" style="position:relative; left: 10px; top: -25px">
+    <div class="graph"></div>
+    <div class="node-title">
         &nbsp;
     </div>
 <div class="container">
