@@ -5861,7 +5861,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Alegreya Sans SC', Georgia, serif;
+  font-family: 'Helvetica', sans-serif;
 }
 h1,
 h2,
@@ -5878,11 +5878,11 @@ h4 {
 }
 a,
 a:hover {
-  color: #660000;
+  color: #dc0026;
   text-decoration: underline;
 }
 a:hover {
-  color: #770000;
+  color: #dc0026;
 }
 footer {
   margin-bottom: 1em;
@@ -5904,22 +5904,27 @@ ul.search-results li {
   border-bottom: 1px solid #ddd;
 }
 .node {
-  fill: #660000;
+  fill: #0b39a4;
   stroke: #fff;
   stroke-width: 2px;
   cursor: pointer;
 }
 .root {
-  fill: #000 !important;
+  fill: #dc0026 !important;
+  stroke: #000;
+  stroke-width: 2px;
 }
 .link {
   stroke: #999;
   stroke-opacity: .6;
 }
 .main-title a {
-  background: url('../img/kompromatron.png') no-repeat left top;
-  padding-left: 55px;
+  background: url('../img/machtvz.png') no-repeat left top;
+  padding-left: 225px;
+  height: 65px;
   text-decoration: none;
+  display: block;
+  text-indent: -99999px;
 }
 .graph {
   background-color: #eee;

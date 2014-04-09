@@ -5,14 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{% block title %}(Untitled){% endblock %} - kompromatron</title>
-  <meta name="description" content="{% block description %}Das kompromatron verbindet Informationen über die Nebeneinkünfte von Abgeordneten, Parteispenden und das Verbänderegister des Bundestags.{% endblock %}">
+  <title>{% block title %}(Untitled){% endblock %} - machtVZ</title>
+  <meta name="description" content="{% block description %}Das machtVZ verbindet Informationen über die Nebeneinkünfte von Abgeordneten, Parteispenden und das Verbänderegister des Bundestags.{% endblock %}">
   <meta name="keywords" content="{% block keywords %}lobbying, verbände, netzwerk, macht, berlin{% endblock %}">
-  <meta name="author" content="kompromatron" />
+  <meta name="author" content="Open Knowledge Foundation Deutschland" />
 
-  <meta name="og:site_name" content="kompromatron">
-
-  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700,800' rel='stylesheet' type='text/css'>
+  <meta name="og:site_name" content="machtVZ">
 
   {% assets filters="less,cssmin,cssrewrite", output="gen/style.css",
       "vendor/bootstrap/less/bootstrap.less",
@@ -22,14 +20,13 @@
   {% endassets %}
 
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel="shortcut icon" href="http://assets.pudo.org/img/favicon.ico">
 </head>
 <body>
 
   <div class="container">
     <h1 class="main-title">
       <a href="/index.html">
-        КОМПРОМАТРОН
+        machtVZ
       </a>
     </h1>
 
@@ -37,7 +34,7 @@
         <div class="form-group">
             <div class="col-xs-12">
                 <input type="text" class="form-control input-lg search-box" name="q"
-                    placeholder="Zeige mir Kompromat zu..." value="{{query}}">
+                    placeholder="Zeige mir Verbindungen zu..." value="{{query}}">
             </div>
         </div>
     </form>
