@@ -31,6 +31,9 @@
       </a>
     </h1>
 
+    {% block navblock %}{% endblock %}
+
+    {% block globalsearch %}
     <form action="/browse.html" method="GET" class="form-horizontal" role="form">
         <div class="form-group">
             <div class="col-xs-12">
@@ -39,6 +42,7 @@
             </div>
         </div>
     </form>
+    {% endblock %}
 
     {% block content %}{% endblock %}
   </div>
