@@ -50,7 +50,7 @@ Grano.graph = function(selector, domain, project, seed, options){
   };
 
   var node_filter_large = function(d){
-    return d.weight > MIN_WEIGHT * 100 && (!!d.isRoot || !!d.isRelated);
+    return d.weight > MIN_WEIGHT * 20 || (!!d.isRoot || !!d.isRelated);
   };
 
   var link_filter_normal = function(d){
@@ -133,7 +133,8 @@ Grano.graph = function(selector, domain, project, seed, options){
       }
 
       if (nodeList.length > 1500 && linkList.length > 1500) {
-        node_filter = node_filter_large;
+        console.log('big entity');
+        // node_filter = node_filter_large;
         link_filter = link_filter_large;
       }
 
