@@ -197,7 +197,15 @@ Grano.graph = function(selector, domain, project, seed, options){
         // .style('fill', function(d){ return color(d.schema); })
         .on('click', click)
         .on('mouseover', function(d){
-          $(options.titleSelector).text(d.name);
+          var offset = $(selector).offset();
+          
+          var x = d.x + offset.left + 20;
+          var y = d.y + offset.top  - 10;
+
+          $(options.titleSelector).text(d.name).show().css({"left":x+"px","top":y+"px"})
+        })
+        .on('mouseout', function(d){
+          $(options.titleSelector).hide();
         })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
