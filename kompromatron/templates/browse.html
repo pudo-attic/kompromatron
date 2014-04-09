@@ -7,7 +7,7 @@
 {% block content %}
     <ul class="search-results">
         {% for result in results.results %}
-            <li><a href="/entities/{{result.id}}.html">{{result.properties['name'].value}}</a></li>
+            <li><a href="/entities/{{result.id}}.html">{{result.properties.name.value}}</a></li>
         {% endfor %}
     </ul>
 {% endblock %}
