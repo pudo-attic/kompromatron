@@ -103,7 +103,7 @@ Grano.graph = function(selector, domain, project, seed, options){
       nodes[graph.root].fixed = true;
       nodes[graph.root].isRoot = true;
       nodes[graph.root].x = w / 2;
-      nodes[graph.root].y = h / 2;
+      nodes[graph.root].y = h / 3 * 2;
 
       for (var nodeid in nodes) {
         nodes[nodeid].id = nodeid;
@@ -134,12 +134,31 @@ Grano.graph = function(selector, domain, project, seed, options){
   });
 
   function update() {
-    // Restart the force layout.
+    var max_r = 20;
+    var getRadius = function(d) {
+      return d.isRoot ? 15 : Math.max(5, Math.min(max_r, Math.sqrt(d.weight * 4)));
+    };
+
+    var goodPos = [[w / 4, h / 3], [w * 3 / 4, h / 3]];
+
     force
         .gravity(0)
         .nodes(nodeList)
         .links(linkList)
         .start();
+
+    nodeList = nodeList.filter(node_filter).map(function(d){
+      var r = getRadius(d);
+      if (r === max_r) {
+        d.fixed = true;
+        var pos = goodPos.pop();
+        if (pos) {
+          d.x = d.px = pos[0];
+          d.y = d.py = pos[1];
+        }
+      }
+      return d;
+    });
 
     // Update the links…
     link = vis.selectAll('line.link')
@@ -160,7 +179,6 @@ Grano.graph = function(selector, domain, project, seed, options){
     // Update the nodes…
     node = vis.selectAll('circle.node')
       .data(nodeList
-         .filter(node_filter)
       );
 
     var drag = force.drag()
@@ -174,9 +192,7 @@ Grano.graph = function(selector, domain, project, seed, options){
         // .classed('entity', function(d){ return !!d.isEntity; })
         // .attr('cx', function(d) { return d.x; })
         // .attr('cy', function(d) { return d.y; })
-        .attr('r', function(d){
-          return d.isRoot ? 15 : Math.max(5, Math.min(20, Math.sqrt(d.weight * 4)));
-        })
+        .attr('r', getRadius)
         .attr('title', function(d){ return d.name; })
         // .style('fill', function(d){ return color(d.schema); })
         .on('click', click)
