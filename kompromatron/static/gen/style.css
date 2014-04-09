@@ -2138,8 +2138,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../vendor/bootstrap/fonts/glyphicons-halflings-regular.eot');
-  src: url('../vendor/bootstrap/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('../vendor/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../vendor/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  src: url('vendor/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('vendor/bootstrap/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('vendor/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('vendor/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -5861,13 +5861,17 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
 }
 h1,
 h2,
 h3,
 h4 {
   font-weight: bolder;
+}
+.jumbotron h1 {
+  font-weight: 900;
+  line-height: 1.4em;
 }
 .main-title {
   margin-bottom: 0.2em;
@@ -5879,7 +5883,7 @@ h4 {
 a,
 a:hover {
   color: #dc0026;
-  text-decoration: underline;
+  t-ext-decoration: underline;
 }
 a:hover {
   color: #dc0026;
@@ -5913,6 +5917,11 @@ ul.search-results li {
   fill: #dc0026 !important;
   stroke: #000;
   stroke-width: 2px;
+}
+.pagination .active a {
+  background-color: #dc0026;
+  border-color: #dc0026;
+  color: white;
 }
 .link {
   stroke: #999;

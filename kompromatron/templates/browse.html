@@ -7,9 +7,26 @@
 {% block content %}
     <ul class="search-results">
         {% for result in results.results %}
-            <li><a href="/entities/{{result.id}}.html">{{result.properties.name.value}}</a></li>
+            <li>
+                <a href="/entities/{{result.id}}.html">{{result.properties.name.value}}</a>
+            </li>
         {% endfor %}
     </ul>
+
+    <div class="text-center">
+        <ul class="pagination">
+            <!--li><a href="#">&laquo;</a></li-->
+            {% for page, url in pages %}
+                {% if page == cur_page %}
+                    <li class="active"><a>{{page}}</a></li>
+                {% else %}
+                    <li><a href="{{url}}">{{page}}</a></li>
+                {% endif %}
+            {% endfor %}
+            <!--li><a href="#">&raquo;</a></li-->
+        </ul>
+    </div>
+
 {% endblock %}
 
 {% block js %}{% endblock %}

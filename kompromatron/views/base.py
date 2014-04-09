@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, url_for
 # from flask import redirect
 
 from kompromatron.core import grano, app
@@ -55,12 +55,36 @@ def relation(id):
 
 @base.route('/browse.html')
 def browse():
+    limit = 15
     params = {
         'q': request.args.get('q', ''),
+        'limit': limit,
         'offset': request.args.get('offset', 0),
+        'schema': request.args.get('schema', ''),
         'project': grano.slug
     }
     s, results = grano.client.get('/entities', params=params)
+    page = results.get('page')
+    pages = results.get('pages')
     #print results.get('results')[0]
+
+    wiggle = 3
+    low = page - wiggle
+    high = page + wiggle 
+
+    if low < 1:
+        low = 1
+        high = min((2*wiggle)+1, pages)
+                
+    if high > pages:
+        high = pages
+        low = max(1, pages - (2*wiggle)+1)
+
+    pages = []
+    for n in range(low, high+1):
+        args = dict(request.args.items())
+        args['offset'] = (n - 1) * limit
+        pages.append((n, url_for('browse', **args)))
+
     return render_template('browse.html', results=results,
-        query=params.get('q'))
+        pages=pages, cur_page=page, query=request.args.get('q', ''))
