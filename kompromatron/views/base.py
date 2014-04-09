@@ -34,6 +34,11 @@ def index():
     return render_template('index.html')
 
 
+@base.route('/about.html')
+def about():
+    return render_template('about.html')
+
+
 @base.route('/entities/<id>.html')
 def entity(id):
     entity = grano.entities.by_id(id)
