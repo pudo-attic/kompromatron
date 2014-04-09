@@ -11,24 +11,27 @@ Grano.graph = function(selector, domain, project, seed, options){
 
   var color = d3.scale.category20b();
 
+  d3.selection.prototype.moveToFront = function() {
+    return this.each(function() {
+      this.parentNode.appendChild(this);
+    });
+  };
 
   var w = $(selector).width(),
       h = $(selector).height(),
-      r = 6,
+      r = 10,
       node,
       link;
   var nodeList = [];
   var linkList = [];
 
   var force = d3.layout.force()
-    .charge(-60)
     // .friction(0.5)
     // .chargeDistance(function(d){
     //   return 10 + Math.sqrt(d.source.weight + d.target.weight) * 2;
     // })
     // .size([w / 2, h / 2]);
-    // .charge(function(d) { return d.weight ? -d.weight / 100 : -30; })
-    // .linkDistance(function(d) { return d.target.weight > 2 ? 160 : 50; })
+    .charge(-60)
     .linkDistance(30)
     .size([w, h]);
 
@@ -103,7 +106,7 @@ Grano.graph = function(selector, domain, project, seed, options){
       nodes[graph.root].fixed = true;
       nodes[graph.root].isRoot = true;
       nodes[graph.root].x = w / 2;
-      nodes[graph.root].y = h / 3 * 2;
+      nodes[graph.root].y = h / 2;
 
       for (var nodeid in nodes) {
         nodes[nodeid].id = nodeid;
@@ -197,20 +200,25 @@ Grano.graph = function(selector, domain, project, seed, options){
         // .style('fill', function(d){ return color(d.schema); })
         .on('click', click)
         .on('mouseover', function(d){
+          var sel = d3.select(this);
+          sel.moveToFront();
           var offset = $(selector).offset();
-          
           var x = d.x + offset.left + 20;
           var y = d.y + offset.top  - 10;
 
-          $(options.titleSelector).text(d.name).show().css({"left":x+"px","top":y+"px"})
+          $(options.titleSelector)
+            .text(d.name)
+            .show()
+            .css({'left': x + 'px', 'top': y + 'px'});
         })
-        .on('mouseout', function(d){
+        .on('mouseout', function(){
           $(options.titleSelector).hide();
         })
         .attr('cx', function(d) { return d.x; })
         .attr('cy', function(d) { return d.y; })
         .on('dblclick', dblclick)
         .call(drag);
+
 
     // Exit any old nodes.
     node.exit().remove();
@@ -244,5 +252,25 @@ Grano.graph = function(selector, domain, project, seed, options){
   function dragstart(d) {
     d3.select(this).classed("fixed", d.fixed = true);
   }
+
+  $('#graph-search').keyup(function(){
+    var val = $(this).val().toLowerCase();
+    if (val) {
+      nodeList.forEach(function(d){
+        if (d.name.toLowerCase().indexOf(val) !== -1) {
+          d.found = true;
+        } else {
+          d.found = false;
+        }
+      });
+      
+    } else {
+      nodeList.forEach(function(d){
+        d.found = false;
+      });
+    }
+    node.classed('found', function(d){ return !!d.found; });
+    vis.selectAll('.found').moveToFront();
+  });
 
 };

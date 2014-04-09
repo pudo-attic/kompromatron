@@ -6,14 +6,25 @@
 
 {% block content %}
     <h2>{{entity.properties.get('name', {}).get('value', {})}}</h2>
-    <div class="pull-right">
-        <small>Gefilterter Beziehungsgraph:</small>
-    </div>
 </div>
+    <div class="graph-search-container">
+        <div class="container">
+            <div class="pull-right">
+                <input type="search" class="form-control input-sm" id="graph-search" placeholder="Suchen..."/>
+            </div>
+        </div>
+    </div>
     <div class="graph"></div>
-<div class="container">
     <div class="node-title">
         &nbsp;
+    </div>
+<div class="container">
+    <div class="pull-right">
+        <small>
+            <a class="text-muted" href="#disclaimer">
+                Hinweise
+            </a>
+        </small>
     </div>
     <table class="table table-striped">
         {% for key, prop in entity.properties.items() if key != 'name' %}
@@ -43,6 +54,9 @@
             </tr>
         {% endfor %}
     </table>
+    <div id="disclaimer" class="alert alert-info">
+        Die dargestellten Verbindungen basieren auf amtlichen Veröffentlichungen von Nebeneinkünften, Parteispenden und der Verbändeliste des Deutschen Bundestages. Die Angaben sind nicht vollständig. Die Netzwerkdarstellung ist weiterhin gefiltert.
+    </div>
 {% endblock %}
 
 {% block js %}
