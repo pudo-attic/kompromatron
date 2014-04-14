@@ -69,8 +69,8 @@
     {% endassets %}
 
   <script>
-    var domain = 'http://beta.grano.cc';
-    var project = 'kompromatron';
+    var domain = '{{ config.GRANO_HOST }}';
+    var project = '{{ config.GRANO_PROJECT }}';
     var seed = '{{ entity.id }}';
     Grano.graph('.graph', domain, project, seed, {
         depth: 2,
