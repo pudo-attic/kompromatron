@@ -57,18 +57,20 @@ if __name__ == "__main__":
         for row in c.execute("SELECT * FROM betriebe ORDER BY id"):
             #print row
             if row["muttergesellschaft"] is not None:
-                csvwriter.writerow([
-                    row["name"].encode("utf8"),
-                    "hat die Muttergesellschaft",
-                    row["muttergesellschaft"].encode("utf8")
-                ])
-            if row["betreiber"] is not None:
-                if row["betreiber"] != row["muttergesellschaft"]:
+                if row["muttergesellschaft"] != row["name"]:
                     csvwriter.writerow([
                         row["name"].encode("utf8"),
-                        "hat den Betreiber",
-                        row["betreiber"].encode("utf8")
+                        "hat die Muttergesellschaft",
+                        row["muttergesellschaft"].encode("utf8")
                     ])
+            if row["betreiber"] is not None:
+                if row["betreiber"] != row["muttergesellschaft"]:
+                    if row["betreiber"] != row["name"]:
+                        csvwriter.writerow([
+                            row["name"].encode("utf8"),
+                            "hat den Betreiber",
+                            row["betreiber"].encode("utf8")
+                        ])
     c.close()
     conn.close()
     os.remove(dbpath)
