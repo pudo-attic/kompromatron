@@ -38,5 +38,8 @@ nosetests.xml
 .env
 *.DS_Store
 
+# recommended virtualenv directory
+venv/
+
 kompromatron/static/vendor/*
 kompromatron/static/.webassets-cache/*
